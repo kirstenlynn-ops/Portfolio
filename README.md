@@ -1,7 +1,7 @@
 # Hi! My Name is Kirsten Livingston!🙌
 I'm a emerging data scientist passionate about turning raw data into actionable insights. 
 
-## Skills and Proficiencies
+## Skills and Proficiencies:
 | Data Analysis:📚                     | Data Visualization:📈       | Tools & Platforms:🔨      |
 |---------------------------------------|-----------------------------|----------------------------|
 | Python, R, SQL                        | Matplotlib                  | Github                     |
@@ -9,16 +9,12 @@ I'm a emerging data scientist passionate about turning raw data into actionable 
 | Exploratory Data Analysis             | Seaborn                     | RStudio                    |
 | Predictive Modeling & Machine Learning | Interactive Dashboards      | Excel & Google Sheets      |
 
-**Data Visualization:📈**
+## Contact and Links:
+📧Email: lynnmarieliving@gmail.com
+🔑GitHub: https://github.com/kirstenlynn-ops
 
--Matplotlib, Tableau, Seaborn, Plotly
-
--Interactive Dashboards
-
-**Tools and Plateforms:🔨**
-
--GitHub
-
--Jupyter Notebook, RStudio
-
--Excel, Google Sheets
+## Projects:
+*(More coming soon!)*
+-📽️Project 1: [link]
+-📽️Project 2: [link]
+-📽️Project 3: [link]
