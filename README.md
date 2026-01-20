@@ -1,2 +1,2 @@
 # Hi! My Name is Kirsten Livingston!
-Welcome to my GitHub portfolio! I love exploring data, building visualizations, and turning raw data into actionable insights.
+I'm a emerging data scientist passionate about turning raw data into actionable insights. 
