@@ -1,5 +1,5 @@
 # Hi! My Name is Kirsten Livingston!🙌
-I'm a emerging data scientist passionate about turning raw data into actionable insights. 
+### I'm a emerging data scientist passionate about turning raw data into actionable insights. 
 
 ## Skills and Proficiencies:
 | Data Analysis:📚                     | Data Visualization:📈       | Tools & Platforms:🔨      |
