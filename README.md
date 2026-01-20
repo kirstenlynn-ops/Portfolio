@@ -14,7 +14,11 @@ I'm a emerging data scientist passionate about turning raw data into actionable 
 🔑GitHub: https://github.com/kirstenlynn-ops
 
 ## Projects:
+
 *(More coming soon!)*
+
 -📽️Project 1: [link]
+
 -📽️Project 2: [link]
+
 -📽️Project 3: [link]
