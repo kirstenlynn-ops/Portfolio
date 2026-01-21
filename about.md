@@ -4,7 +4,7 @@ I am an aspiring data scientist, I enjoy working with data because it allows me 
 
 Through coursework and hand-on projects, I am continuously developing my skills in data analysis, visualization, and predictive modeling. I am excited to keep growing in the field of data science!
 
-## Skills & Proficiencies 
+## Skills & Proficiencies 💡
 
 | **Programming & Analysis**  | **Data Visualization**   |
 |:----------------------------|:-------------------------|
@@ -23,5 +23,5 @@ Through coursework and hand-on projects, I am continuously developing my skills 
 
 
 
-## Resume
+## Resume 📄
 Resume coming soon.
