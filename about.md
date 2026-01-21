@@ -11,7 +11,7 @@ Through coursework and hand-on projects, I am continuously developing my skills 
 | - Python                    | - Matplotlib             |
 | - R                         | - Seaborn                | 
 | - SQL                       | - Tableau                |
-|-----------------------------|--------------------------|
+
 
 | **Data Science & Analytics**       |
 |:-----------------------------------|
@@ -20,7 +20,7 @@ Through coursework and hand-on projects, I am continuously developing my skills 
 | - Feature Selection                |
 | - Predictive Modeling              |
 | - Model Evaluation                 |
-|------------------------------------|
+
 
 
 ## Resume
