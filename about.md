@@ -6,27 +6,21 @@ Through coursework and hand-on projects, I am continuously developing my skills 
 
 ## Skills & Proficiencies 
 
-| **Programming & Analysis**  | **Data Science & Analytics**      |
-|:----------------------------|:----------------------------------|
-| - Python                    | - Data Cleaning & Wrangling       |
-| - R                         | - Exploratory Data Analysis (EDA) | 
-| - SQL                       | - Feature Selection               |
-|                             | - Predictive Modeling             |
-|                             | - Model Evaluation                |
-|-----------------------------------------------------------------|
+| **Programming & Analysis**  | **Data Visualization**   |
+|:----------------------------|:-------------------------|
+| - Python                    | - Matplotlib             |
+| - R                         | - Seaborn                | 
+| - SQL                       | - Tableau                |
+|-----------------------------|--------------------------|
 
-
-**Data Science & Analytics**
-- Data Cleaning & Wrangling
-- Exploratory Data Analysis (EDA)
-- Feature Selection
-- Predictive Modeling
-- Predictive Modeling
-
-**Data Visualization**
-- Matplotlib
-- Seaborn
-- Tableau
+| **Data Science & Analytics**       |
+|:-----------------------------------|
+| - Data Cleaning & Wrangling        |
+| - Exploratory Data Analysis (EDA)  |
+| - Feature Selection                |
+| - Predictive Modeling              |
+| - Model Evaluation                 |
+|------------------------------------|
 
 
 ## Resume
