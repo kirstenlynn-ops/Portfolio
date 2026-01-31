@@ -25,7 +25,7 @@ Higher-energy music is more frequently played during daytime and afternoon hours
 **Hypothesis 2:**
 Certain genres and mood profiles become more prominent during high-stress periods (such as academic semesters) compared to lower-stress periods (such as academic breaks).
 
-**Hypothesis 2:**
+**Hypothesis 3:**
 Audio features such as energy and valence tend to cluster during specific listening periods, suggesting habitual mood-based listening patterns rather than random selection.
 
 ---
