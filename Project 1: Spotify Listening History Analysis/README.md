@@ -1,11 +1,11 @@
 # 🎧 Spotify Listening History Analysis (2022–2025)
 ## Project Overview
 
-Streaming platforms generate massive amounts of user interaction data, yet most users have limited insight into their own listening habits. While tools like Spotify Wrapped provide high-level summaries, they often lack depth, time-based context, and behavioral insight.
+Streaming platforms collect huge amounts of user interaction data, but most listeners rarely get a deeper look at their own habits. Features like _Spotify Wrapped_ are fun and informative, yet they often overlook deeper, time-driven patterns and behavioral insights.
 
 This project analyzes my personal Spotify listening history from 2022–2025 to uncover patterns in music consumption, mood, and engagement over time. Using exploratory data analysis, feature engineering, and visualization, this project demonstrates how individual-level behavioral data can be analyzed responsibly and ethically.
 ---
-🎯 Project Goals
+## 🎯 Project Goals
 - Identify temporal trends in listening behavior
 (time of day, day of week, seasonal patterns)
 - Explore shifts in artist and genre preferences over time
@@ -13,7 +13,7 @@ This project analyzes my personal Spotify listening history from 2022–2025 to 
 - Examine relationships between audio features such as:
      - Energy
      - Valence
-      - Tempo
+     - Tempo
 - Demonstrate ethical handling of personal behavioral data
 ---
 ## 🔍 Research Questions & Hypotheses
@@ -23,8 +23,12 @@ Higher-energy music is more frequently played during daytime and afternoon hours
 
 **Hypothesis 2:**
 Certain genres and mood profiles become more prominent during high-stress periods (such as academic semesters) compared to lower-stress periods (such as academic breaks).
+
+**Hypothesis 2:**
+Audio features such as energy and valence tend to cluster during specific listening periods, suggesting habitual mood-based listening patterns rather than random selection.
+
 ---
-🛠 Project Workflow
+## 🛠 Project Workflow
 Stage	Description
 Notebook 0	Data ingestion & initial inspection (JSON → CSV)
 Notebook 1 (1–3a)	Initial exploratory data analysis (EDA) & data cleaning
@@ -34,12 +38,12 @@ Notebook 3	Behavioral analysis & insight-driven visualizations
 Dashboard	Summary and visual exploration
 Final Write-Up	Spotify Listening History Analysis (2022–2025)
 ---
-📊 Data Source
+## 📊 Data Source
 - Spotify – Download Your Data
 - Data retrieved via Spotify’s official privacy portal:
 https://www.spotify.com/account/privacy/
 ---
-🔐 Ethical Considerations & Privacy
+## 🔐 Ethical Considerations & Privacy
 
 This project uses only my personal Spotify streaming history. No other users’ data is included.
 
