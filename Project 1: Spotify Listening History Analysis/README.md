@@ -30,15 +30,15 @@ Audio features such as energy and valence tend to cluster during specific listen
 
 ---
 ## 🛠 Project Workflow
-|-Stage---|---Description---|
-|------------------------|
-| Notebook 0----| Data ingestion & initial inspection (JSON → CSV)|
-| Notebook 1 (1–3a)--|	Initial exploratory data analysis (EDA) & data cleaning|
-|Notebook 1 (3b)---| Subsequent exploratory analysis|
-|Notebook 2--| Feature engineering|
-|Notebook 3--|Behavioral analysis & insight-driven visualizations|
-|Dashboard---|Summary and visual exploration|
-|Final Write-Up---|	Spotify Listening History Analysis (2022–2025)|
+|Stage              | Description|
+|-------------------|---------------------------------------------------------|
+| Notebook 0        | Data ingestion & initial inspection (JSON → CSV)        |
+| Notebook 1 (1–3a) | Initial exploratory data analysis (EDA) & data cleaning |
+|Notebook 1 (3b)    | Subsequent exploratory analysis                         |
+|Notebook 2         | Feature engineering                                     |
+|Notebook 3         | Behavioral analysis & insight-driven visualizations     |
+|Dashboard          |Summary and visual exploration                           |
+|Final Write-Up     | Spotify Listening History Analysis (2022–2025)          |
 
 ---
 ## 📊 Data Source
