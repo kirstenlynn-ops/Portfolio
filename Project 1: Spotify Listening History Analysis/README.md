@@ -4,6 +4,7 @@
 Streaming platforms collect huge amounts of user interaction data, but most listeners rarely get a deeper look at their own habits. Features like _Spotify Wrapped_ are fun and informative, yet they often overlook deeper, time-driven patterns and behavioral insights.
 
 This project analyzes my personal Spotify listening history from 2022–2025 to uncover patterns in music consumption, mood, and engagement over time. Using exploratory data analysis, feature engineering, and visualization, this project demonstrates how individual-level behavioral data can be analyzed responsibly and ethically.
+
 ---
 ## 🎯 Project Goals
 - Identify temporal trends in listening behavior
@@ -29,14 +30,16 @@ Audio features such as energy and valence tend to cluster during specific listen
 
 ---
 ## 🛠 Project Workflow
-Stage	Description
-Notebook 0	Data ingestion & initial inspection (JSON → CSV)
-Notebook 1 (1–3a)	Initial exploratory data analysis (EDA) & data cleaning
-Notebook 1 (3b)	Subsequent exploratory analysis
-Notebook 2	Feature engineering
-Notebook 3	Behavioral analysis & insight-driven visualizations
-Dashboard	Summary and visual exploration
-Final Write-Up	Spotify Listening History Analysis (2022–2025)
+|-Stage---|---Description---|
+|------------------------|
+| Notebook 0----| Data ingestion & initial inspection (JSON → CSV)|
+| Notebook 1 (1–3a)--|	Initial exploratory data analysis (EDA) & data cleaning|
+|Notebook 1 (3b)---| Subsequent exploratory analysis|
+|Notebook 2--| Feature engineering|
+|Notebook 3--|Behavioral analysis & insight-driven visualizations|
+|Dashboard---|Summary and visual exploration|
+|Final Write-Up---|	Spotify Listening History Analysis (2022–2025)|
+
 ---
 ## 📊 Data Source
 - Spotify – Download Your Data
