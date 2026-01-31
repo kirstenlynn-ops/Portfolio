@@ -19,23 +19,30 @@ This project analyzes Spotify listening history from two consenting individuals 
 - Demonstrate ethical handling of personal behavioral data
 ---
 ## 🔍 Research Questions & Hypotheses
-**Research Question 1:**
+- **Research Question 1:**
 How do listening patterns differ between two users across time?
+
 **Hypothesis 1:**
 One user will demonstarte more consistent listening patterns across time of day and days of the week, while the other will show higher variability and irregual listening sessions.
 
-**Research Question 2:**
+
+- **Research Question 2:**
 Do users exhibit distinct mood-based habits?
+
 **Hypothesis 2:**
 Audio fetaures such as energry and valence will clsuter differently for each user, indictaing personalized mood-based listening patterns rather than random song selection.
 
-**Research Question 3:**
+
+- **Research Question 3:**
 How does listening volumn reflect engagement styles?
+
 **Hypothesis 3:**
 One user will show higher overall listening volumn with longer sessions, while the other will exhibit shorter, more frequent listening events.
 
-**Research Question 4:**
+
+- **Research Question 4:**
 How does listening behavior evolve over time within each user?
+
 **Hypothesis 4:**
 Over time, each user tends to listen to a more consistent set of artists and genres rather than frequently changing their listening style.
 
