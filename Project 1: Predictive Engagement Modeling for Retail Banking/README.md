@@ -1,9 +1,10 @@
-### BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT 
-MODELING FOR RETAIL BANKING
+### BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
 ---
-Prepared for: Stakeholders of the Bank Marketing Campaign
+Prepared for:
+- Stakeholders of the Bank Marketing Campaign
 
-Prepared by: Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
+Prepared by: 
+- Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
 
 ## INTRODUCTION
 ---
