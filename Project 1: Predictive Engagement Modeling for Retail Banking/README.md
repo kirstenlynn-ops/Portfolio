@@ -11,10 +11,19 @@ https://www.canva.com/design/DAG9koWKaK4/vhbgQZ2pM8lB56cZI8DwKg/edit?utm_content
 This analysis transforms the UCI Bank Marketing dataset (41,188 records from Portuguese bank telemarketing campaigns, 2008-2010) from a term deposit subscription prediction task into a customer churn prevention framework. By reframing "no" responses as disengagement signals, we identify at-risk customers and provide actionable strategies to shift from inefficient mass calling to targeted retention efforts.
 
 ---
+## Project Workflow
+
+|Stage (Notebook)              | Description                        |
+|------------------------------|------------------------------------|
+| P1 - S1 Data Wrangling       | Preprocessing Steps                |
+| P1 - S2 Data Modeling        | Pipeline Construction & Validation |
+| P1 - S3 Data Visualization   | Signal Detection & Validation      |
+---
 ## 👥Business Impact
 
 Model achieves 89.1% accuracy and 49.5% precision when targeting top 10% highest-probability customers (vs. 11.3% baseline conversion).
 
+---
 ## 🛑Critical Risk Zone
 
 Middle-aged customers (30-50) with calls <200 seconds during unfavorable economic conditions.
