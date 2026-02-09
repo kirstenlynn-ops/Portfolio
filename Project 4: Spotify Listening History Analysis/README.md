@@ -51,8 +51,8 @@ Over time, each user tends to listen to a more consistent set of artists and gen
 |Stage (Notebook)   | Description|
 |-------------------|---------------------------------------------------------     |
 | NB 0              | Data ingestion & raw data inspection (User A & User B)       |
-| NB 1 (1–3a)       | Initial exploratory data analysis (EDA) & data cleaning      |
-| NB 1 (3b)         | Subsequent exploratory analysis                              |
+| NB 1              | Initial exploratory data analysis (EDA) & data cleaning      |
+| NB 1b             | Subsequent exploratory analysis                              |
 | NB 2              | Feature engineering                                          |
 | NB 3              | Behavioral analysis & insight-driven visualizations          |
 |Dashboard          |Summary and visual exploration                                |
