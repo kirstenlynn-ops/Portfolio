@@ -1,4 +1,4 @@
-# BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENTMODELING FOR RETAIL BANKING
+# 🏦BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
 
 - Prepared for: Stakeholders of the Bank Marketing Campaign
 - Prepared by: Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
@@ -20,7 +20,7 @@ engagement. By identifying a “Risk Zone” in the middle-aged demographic, we 
 rate, providing a scalable ROI-driven solution for retail banking.
 ---
 
-## INTRODUCTION
+## ✋INTRODUCTION
 In the modern retail banking landscape, the cost of acquiring new customers often exceeds the cost of retaining
 existing ones. This project utilizes the “Bank Marketing” dataset (‘bank-additional-full.csv’) from a Portuguese
 banking institution to investigate customer engagement patterns during term‑deposit telemarketing campaigns.
@@ -29,7 +29,7 @@ this work reframes the problem as a propensity‑to‑engage study. By analyzing
 and macroeconomic variables, the goal is to shift from inefficient mass calling to a data‑driven predictive
 targeting approach. (Moro et al., 2014).
 
-## BUSINESS PROBLEM/HYPOTHESIS
+## ❔BUSINESS PROBLEM/HYPOTHESIS
 The core business problem is the low effectiveness of current outbound term-deposit campaigns, where
 approximately 88% of contacted clients do not subscribe. This high “no” rate drives substantial operational cost
 per successful conversion and increases the risk of customer fatigue –defined here as “engagement churn”. Our
@@ -37,10 +37,10 @@ hypothesis is that by identifying a specific “risk zone” of low-engagement p
 outreach frequency and timing to improve ROI.
 
 ---
-## METHODS/ANALYSIS
+## 📋METHODS/ANALYSIS
 Our methodology followed a specialized pipeline divided into three critical roles to ensure a rigorous and
 repeatable process (McKinney, 2022).
-**Data Wrangling (Step-by-Step Preprocessing):**
+**🤹Data Wrangling (Step-by-Step Preprocessing):**
 • Structure & Imbalance: We loaded the bank-additional-full.csv file with an explicit semicolon separator
 to parse all 21 original columns. We performed a deep inspection of structure and types, confirming the
 absence of null values while identifying a significant class imbalance (88.7% “no” vs. 11.3% “yes”).
@@ -54,7 +54,7 @@ dropped.
 avoid the “dummy variable trap.” This expanded our feature space from 21 to 54 fully numeric columns
 suitable for machine learning algorithms.
 
-**Data Modeling (Pipeline Construction & Validation):**
+**⏱️Data Modeling (Pipeline Construction & Validation):**
 The modeling workflow framed the task as a binary classification problem using a stratified training and test split (80/20) to maintain the original class imbalance. To ensure model integrity and predictive power, we
 implemented the following.
 • Leakage Prevention: The ‘duration’ variable was explicitly excluded prior to model training, as it is only
@@ -65,7 +65,7 @@ training data to address skewed classes without leaking information into the tes
 5
 them on ROC- AUC and precision-recall curves (GeeksforGeeks, 2025).
 
-**Data Visualization(Signal Detection & Validation):**
+**🎁Data Visualization(Signal Detection & Validation):**
 The visualization step focused on turning raw data into clear signals for disengagement and “churn” risk. We
 utilized several advanced plotting techniques to validate our statistical findings.
 • Density Mapping: We generated KDE heatmaps and hexbin plots of age vs. duration to identify a dense
@@ -79,7 +79,7 @@ engagement.
 confirm that behavioral attributes, especially contact frequency, were the strongest drivers of churn.
 
 ---
-## RESULTS
+## 🟰RESULTS
 The analysis revealed that targeting the top 10% highest probability customers yielded a precision of 49.5%,
 nearly five times the baseline rate.
 • Model Performance: The Random Forest with SMOTE achieved 89.1% accuracy and a 78.3% ROC-AUC.
@@ -90,7 +90,7 @@ economic indicators like the Euribor 3-month rate.
 customer fatigue.
 
 ---
-## CONCLUSION
+## 🏁CONCLUSION
 This project successfully transformed the Bank Marketing dataset from a telemarketing conversion challenge
 into a comprehensive customer engagement and churn prevention framework. By leveraging an optimized
 Random Forest classifier, we achieved a high-performance benchmark of 89.1% model accuracy. More
