@@ -111,6 +111,7 @@ strict contact limits that prevent customer fatigue. The integrated data wrangli
 visualization dashboard, and the predictive analytics framework provide a scalable, end-to-end plan for data-
 driven customer experience, ensuring that the bank remains competitive in a volatile economic landscape.
 
+---
 ## ⁉️APPENDIX
 **Part A: Discovery Questions (Investigation Questions)**
 1. Which job categories and education levels show the highest engagement?
@@ -159,6 +160,7 @@ of the 11% who say “Yes” without being overwhelmed by the majority who say �
 consent. The model does not use sensitive personal data that could lead to discriminatory lending.
 Furthermore, by implementing a 3-contact limit, we prevent customer harassment.
 
+---
 ## 📝REFERENCES
 Akins, A. (2024, March 12). Using data and analytics to improve marketing effectiveness. ABA Banking Journal.
      https://bankingjournal.aba.com/2024/03/using-data-and-analytics-to-improve-
