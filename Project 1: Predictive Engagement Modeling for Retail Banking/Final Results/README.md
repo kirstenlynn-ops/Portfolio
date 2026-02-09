@@ -40,6 +40,7 @@ outreach frequency and timing to improve ROI.
 ## 📋METHODS/ANALYSIS
 Our methodology followed a specialized pipeline divided into three critical roles to ensure a rigorous and
 repeatable process (McKinney, 2022).
+
 **🤹Data Wrangling (Step-by-Step Preprocessing):**
 • Structure & Imbalance: We loaded the bank-additional-full.csv file with an explicit semicolon separator
 to parse all 21 original columns. We performed a deep inspection of structure and types, confirming the
