@@ -1,10 +1,10 @@
 # 🔮 BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
 ---
-Prepared for:
-- Stakeholders of the Bank Marketing Campaign
+**Prepared for:**
+Stakeholders of the Bank Marketing Campaign
 
-Prepared by: 
-- Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
+**Prepared by:**
+Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
 
 ## 👋 INTRODUCTION
 ---
@@ -23,3 +23,13 @@ approximately 88% of contacted clients do not subscribe. This high “no” rate
 per successful conversion and increases the risk of customer fatigue –defined here as “engagement churn”. Our
 hypothesis is that by identifying a specific “risk zone” of low-engagement profiles, the bank can optimize
 outreach frequency and timing to improve ROI.
+
+## RECOMMENDATIONS AND ETHICAL CONSIDERATIONS
+---
+Target Outreach: Prioritize the top 10% of customers ranked by the Random Forest model to maximize
+conversion precision.
+Contact Limits: Limit campaign contacts to a maximum of 3 per customer, as subscription rates drop sharply
+beyond this threshold.
+Economic Strategy: Monitor indicators like ‘euribor3m’ and pause outreach during unfavorable economic
+conditions.
+Ethical Standards: Adhere to GDPR by utilizing only anonymized data and providing clear opt-out mechanisms.
