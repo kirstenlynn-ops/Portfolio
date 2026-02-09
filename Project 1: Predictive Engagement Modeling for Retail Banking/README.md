@@ -1,35 +1,56 @@
 # 🔮 BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
 ---
-**Prepared for:**
-Stakeholders of the Bank Marketing Campaign
+**Team Members:** Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
 
-**Prepared by:**
-Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
+**Presentation Link:**
+https://www.canva.com/design/DAG9koWKaK4/vhbgQZ2pM8lB56cZI8DwKg/edit?utm_content=DAG9koWKaK4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## 👋 INTRODUCTION
----
-In the modern retail banking landscape, the cost of acquiring new customers often exceeds the cost of retaining
-existing ones. This project utilizes the “Bank Marketing” dataset (‘bank-additional-full.csv’) from a Portuguese
-banking institution to investigate customer engagement patterns during term‑deposit telemarketing campaigns.
-While the original objective was to predict which clients would subscribe to a term deposit after phone contact,
-this work reframes the problem as a propensity‑to‑engage study. By analyzing socio‑demographic, behavioral,
-and macroeconomic variables, the goal is to shift from inefficient mass calling to a data‑driven predictive
-targeting approach. (Moro et al., 2014).
+### Project Overview
 
-## 🟰 BUSINESS PROBLEM/HYPOTHESIS
----
-The core business problem is the low effectiveness of current outbound term-deposit campaigns, where
-approximately 88% of contacted clients do not subscribe. This high “no” rate drives substantial operational cost
-per successful conversion and increases the risk of customer fatigue –defined here as “engagement churn”. Our
-hypothesis is that by identifying a specific “risk zone” of low-engagement profiles, the bank can optimize
-outreach frequency and timing to improve ROI.
+This analysis transforms the UCI Bank Marketing dataset (41,188 records from Portuguese bank telemarketing campaigns, 2008-2010) from a term deposit subscription prediction task into a customer churn prevention framework. By reframing "no" responses as disengagement signals, we identify at-risk customers and provide actionable strategies to shift from inefficient mass calling to targeted retention efforts.
 
-## RECOMMENDATIONS AND ETHICAL CONSIDERATIONS
----
-Target Outreach: Prioritize the top 10% of customers ranked by the Random Forest model to maximize
-conversion precision.
-Contact Limits: Limit campaign contacts to a maximum of 3 per customer, as subscription rates drop sharply
-beyond this threshold.
-Economic Strategy: Monitor indicators like ‘euribor3m’ and pause outreach during unfavorable economic
-conditions.
-Ethical Standards: Adhere to GDPR by utilizing only anonymized data and providing clear opt-out mechanisms.
+### Business Impact
+
+Model achieves 89.1% accuracy and 49.5% precision when targeting top 10% highest-probability customers (vs. 11.3% baseline conversion).
+
+### Critical Risk Zone
+
+Middle-aged customers (30-50) with calls <200 seconds during unfavorable economic conditions.
+
+### Key Findings
+
+Top 10 Churn Drivers:
+
+  1. duration (call length - #1 predictor)
+  2. euribor3m (economic rates)
+  3. age
+  4. nr.employed
+  5. campaign (contact frequency)
+  6. pdays_never_contacted
+  7. emp.var.rate
+  8. cons.price.idx
+  9. cons.conf.idx
+  10. pdays
+
+### Technical Stack
+| Core        | Imbalance       | Preprocessing    | Models               | Evaluation            |
+|-------------------------------------------------------------------------------------------------|
+|pandas       |imblearn (SMOTE) |ColumnTransformer |LogisticRegression    |ROC-AUC                |
+|scikit-learn |                 |StandardScaler    |RandomForestClassifier|Precision-Recall curves|
+|matplotlib   |                 |OneHotEncoder     |                      |confusion matrices     |
+|seaborn      |                 |                  |                      |                       |
+
+    Core: pandas, scikit-learn, matplotlib, seaborn
+    Imbalance Handling: imblearn (SMOTE)
+    Preprocessing: ColumnTransformer, StandardScaler, OneHotEncoder
+    Models: LogisticRegression, RandomForestClassifier
+    Evaluation: ROC-AUC, Precision-Recall curves, confusion matrices
+
+### Ethical Considerations
+
+    Anonymized data only (no PII)
+    GDPR-compliant contact limits (max 3 calls)
+    Transparent feature importance (no black box)
+    No demographic discrimination
+    Easy opt-out mechanisms required for deployment
+
