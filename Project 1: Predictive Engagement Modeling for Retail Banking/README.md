@@ -33,13 +33,6 @@ Top 10 Churn Drivers:
   10. pdays
 
 ### Technical Stack
-| Core        | Imbalance       | Preprocessing    | Models               | Evaluation            |
-|-------------------------------------------------------------------------------------------------|
-|pandas       |imblearn (SMOTE) |ColumnTransformer |LogisticRegression    |ROC-AUC                |
-|scikit-learn |                 |StandardScaler    |RandomForestClassifier|Precision-Recall curves|
-|matplotlib   |                 |OneHotEncoder     |                      |confusion matrices     |
-|seaborn      |                 |                  |                      |                       |
-
     Core: pandas, scikit-learn, matplotlib, seaborn
     Imbalance Handling: imblearn (SMOTE)
     Preprocessing: ColumnTransformer, StandardScaler, OneHotEncoder
@@ -47,10 +40,9 @@ Top 10 Churn Drivers:
     Evaluation: ROC-AUC, Precision-Recall curves, confusion matrices
 
 ### Ethical Considerations
-
-    Anonymized data only (no PII)
-    GDPR-compliant contact limits (max 3 calls)
-    Transparent feature importance (no black box)
-    No demographic discrimination
-    Easy opt-out mechanisms required for deployment
+- Anonymized data only (no PII)
+- GDPR-compliant contact limits (max 3 calls)
+- Transparent feature importance (no black box)
+- No demographic discrimination
+- Easy opt-out mechanisms required for deployment
 
