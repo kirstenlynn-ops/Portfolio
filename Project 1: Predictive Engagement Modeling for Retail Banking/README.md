@@ -1,4 +1,4 @@
-# BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
+# 🔮 BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
 ---
 Prepared for:
 - Stakeholders of the Bank Marketing Campaign
@@ -6,7 +6,7 @@ Prepared for:
 Prepared by: 
 - Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
 
-## INTRODUCTION
+## 👋 INTRODUCTION
 ---
 In the modern retail banking landscape, the cost of acquiring new customers often exceeds the cost of retaining
 existing ones. This project utilizes the “Bank Marketing” dataset (‘bank-additional-full.csv’) from a Portuguese
@@ -16,7 +16,7 @@ this work reframes the problem as a propensity‑to‑engage study. By analyzing
 and macroeconomic variables, the goal is to shift from inefficient mass calling to a data‑driven predictive
 targeting approach. (Moro et al., 2014).
 
-## BUSINESS PROBLEM/HYPOTHESIS
+## 🟰 BUSINESS PROBLEM/HYPOTHESIS
 ---
 The core business problem is the low effectiveness of current outbound term-deposit campaigns, where
 approximately 88% of contacted clients do not subscribe. This high “no” rate drives substantial operational cost
