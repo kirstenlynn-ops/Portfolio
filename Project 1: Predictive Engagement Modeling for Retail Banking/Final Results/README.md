@@ -112,7 +112,7 @@ visualization dashboard, and the predictive analytics framework provide a scalab
 driven customer experience, ensuring that the bank remains competitive in a volatile economic landscape.
 
 ## ⁉️APPENDIX
-Part A: Discovery Questions (Investigation Questions)
+**Part A: Discovery Questions (Investigation Questions)**
 1. Which job categories and education levels show the highest engagement?
 2. How does customer age interact with material status regarding disengagement?
 3. What call duration threshold reliably separates “risk” from engagement?
@@ -123,7 +123,8 @@ Part A: Discovery Questions (Investigation Questions)
 8. What precision is achieved by targeting only the top 10% of customers?
 9. How does feature importance ranking align with business intuition?
 10. During which months should the bank concentrate telemarketing efforts?
-Part B: Stakeholder Q&A (Presentation Deliverable)
+    
+**Part B: Stakeholder Q&A (Presentation Deliverable)**
 1. Was the objective of this project achieved? Answer: Yes. We successfully reframed the original
 subscription prediction task into a comprehensive propensity-to-engage framework. By achieving 89.1%
 accuracy, we proved that machine learning can identify the specific behavioral and economic markers
@@ -160,11 +161,14 @@ Furthermore, by implementing a 3-contact limit, we prevent customer harassment.
 
 ## 📝REFERENCES
 Akins, A. (2024, March 12). Using data and analytics to improve marketing effectiveness. ABA Banking Journal.
-https://bankingjournal.aba.com/2024/03/using-data-and-analytics-to-improve-
+     https://bankingjournal.aba.com/2024/03/using-data-and-analytics-to-improve-
 marketing-effectiveness/
+
 Geeksforgeeks. (2025, October 29). Evaluation Metrics in Machine Learning.
-https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
+      https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
+      
 McKinney, W. (2022). Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter (3rd ed.).
-O’Reilly.
+      O’Reilly.
+      
 Moro, S., Rita, P., & Cortez, P. (2014). Bank Marketing [Dataset]. UCI Machine Learning Repository.
-https://doi.org/10.24432/C5K306
+      https://doi.org/10.24432/C5K306
