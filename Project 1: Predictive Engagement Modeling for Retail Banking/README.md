@@ -20,17 +20,17 @@ This analysis transforms the UCI Bank Marketing dataset (41,188 records from Por
 | P1 - S3 Data Visualization   | Signal Detection & Validation      |
 
 ---
-## 👥Business Impact
+## 🟰Results:
+
+### 👥Business Impact
 
 Model achieves 89.1% accuracy and 49.5% precision when targeting top 10% highest-probability customers (vs. 11.3% baseline conversion).
 
----
-## 🛑Critical Risk Zone
+### 🛑Critical Risk Zone
 
 Middle-aged customers (30-50) with calls <200 seconds during unfavorable economic conditions.
 
----
-## 🔑Key Findings
+### 🔑Key Findings
 
 Top 10 Churn Drivers:
 
