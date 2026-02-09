@@ -110,3 +110,61 @@ more sustainable; it respects ethical boundaries through transparent modeling, r
 strict contact limits that prevent customer fatigue. The integrated data wrangling pipeline, the multi-panel
 visualization dashboard, and the predictive analytics framework provide a scalable, end-to-end plan for data-
 driven customer experience, ensuring that the bank remains competitive in a volatile economic landscape.
+
+## ⁉️APPENDIX
+Part A: Discovery Questions (Investigation Questions)
+1. Which job categories and education levels show the highest engagement?
+2. How does customer age interact with material status regarding disengagement?
+3. What call duration threshold reliably separates “risk” from engagement?
+4. After how many campaign contacts does ROI turn negative?
+5. Do previously contacted customers convert at significantly higher rates?
+6. How do macroeconomic indicators like euribor3m impact engagement?
+7. Which economic conditions amplify churn risk across different segments?
+8. What precision is achieved by targeting only the top 10% of customers?
+9. How does feature importance ranking align with business intuition?
+10. During which months should the bank concentrate telemarketing efforts?
+Part B: Stakeholder Q&A (Presentation Deliverable)
+1. Was the objective of this project achieved? Answer: Yes. We successfully reframed the original
+subscription prediction task into a comprehensive propensity-to-engage framework. By achieving 89.1%
+accuracy, we proved that machine learning can identify the specific behavioral and economic markers
+that lead to customer disengagement.
+2. Are the results strong enough for practical implementation? Answer: Absolutely, but with a “human-in-
+the-loop” approach. Our model provides a 49.5% precision rate when targeting the top decile of
+customers. We recommend using this as a decision-support tool to prioritize daily call lists.
+3. Why was “Call Duration” excluded from the final predictive model? Answer: This was a critical step to
+ensure model integrity. Call duration is only known after a conversation ends. Including it would create
+target leakage, giving us high accuracy on paper that would fail in the real world.
+4. Does customer engagement depend more on demographics or behavior? Answer: Our findings indicate
+that behavior and macroeconomics are the dominant drivers. While age and job provide some context,
+11
+the “pdays” (previous contact history) and current euribor3m (interest rates) were much stronger
+predictors of the “soft churn” phase.
+5. Which model performed best, and why? Answer: The Random Forest Classifier was the superior
+performer. Unlike linear models, it was able to capture the complex, non-linear “Risk-Zone” we
+identified –specifically how middle-aged demographics interact with specific economic thresholds.
+6. How exactly does this model reduce our marketing operation costs? Answer: Currently, the bank suffers
+from an 88% “No” rate. By targeting the top 10% propensity leads, you can capture nearly 50% of all
+potential “Yes” responses while eliminating 90% of the unsuccessful calls, saving hundreds of man-
+hours.
+7. What is the “Risk Zone” identified in your visualization, and how do we use it? Answer: The “Risk Zone”
+is a concentration of disengagement among customers aged 30 -50 whose calls last under 200 seconds.
+8. How do we handle significant changes in economic conditions? Answer: Because our model identifies
+interest rates (euribor3m) as a top predictor, we recommended a quarterly retaining schedule. If
+interest rates shift significantly, the model should be “refreshed” with the latest 90 days of data.
+9. How did we address the fact that 88% of the data is “No” responses? Answer: We used SMOTE
+(Synthetic Minority Over-sampling Technique). This allowed the model to “learn” the rare characteristics
+of the 11% who say “Yes” without being overwhelmed by the majority who say “No”.
+10. What ethical safeguards are in place for this targeted outreach? Answer: We prioritize transparency and
+consent. The model does not use sensitive personal data that could lead to discriminatory lending.
+Furthermore, by implementing a 3-contact limit, we prevent customer harassment.
+
+## 📝REFERENCES
+Akins, A. (2024, March 12). Using data and analytics to improve marketing effectiveness. ABA Banking Journal.
+https://bankingjournal.aba.com/2024/03/using-data-and-analytics-to-improve-
+marketing-effectiveness/
+Geeksforgeeks. (2025, October 29). Evaluation Metrics in Machine Learning.
+https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
+McKinney, W. (2022). Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter (3rd ed.).
+O’Reilly.
+Moro, S., Rita, P., & Cortez, P. (2014). Bank Marketing [Dataset]. UCI Machine Learning Repository.
+https://doi.org/10.24432/C5K306
