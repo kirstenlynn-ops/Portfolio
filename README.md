@@ -18,7 +18,7 @@
 
 *(More coming soon!)*
 
--📽️Project 1: 
+-📽️Project 1: Predictive Engagement Modeling for Retail Banking
 
 [(https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking)]
 
