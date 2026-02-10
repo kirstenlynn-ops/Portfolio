@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <title>About - Kirsten Livingston</title>
   <style>
-    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #2C3E50; }
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #F5F1E9; /* soft cream, matches index */
+      color: #3E2C2A; /* dark brown text */
+      line-height: 1.6;
+      text-align: center;
+    }
     a { text-decoration: none; color: inherit; }
 
     /* Navigation Bar */
@@ -12,7 +19,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #34495E;
+      background-color: #8B5E3C; /* warm brown */
       display: flex;
       justify-content: center;
       z-index: 100;
@@ -22,80 +29,67 @@
       padding: 16px 20px;
       display: inline-block;
       font-weight: bold;
+      transition: 0.3s;
     }
-    nav a:hover { background-color: #2980B9; }
+    nav a:hover { background-color: #A6785A; }
 
-    /* Hero / Header */
-    header {
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 20px;
-      background: linear-gradient(135deg, #5DADE2, #48C9B0);
-      color: white;
-    }
-    header h1 { font-size: 3em; margin: 10px 0; }
-    header h2 { font-size: 1.5em; margin: 5px 0; }
-
-    /* Section */
+    /* Main Section */
     section {
-      padding: 50px 20px;
+      padding: 120px 20px 50px 20px; /* top padding accounts for fixed nav */
       max-width: 900px;
       margin: auto;
-      background-color: #ECF0F1;
+      background-color: #D9CFC1; /* light earthy taupe card */
       border-radius: 10px;
       box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-      margin-top: -50px;
     }
 
-    section p { font-size: 1.2em; margin-bottom: 20px; }
-    h2 { text-align: center; margin: 30px 0 20px 0; }
+    h1 { font-size: 2.8em; margin-bottom: 10px; }
+    h2 { font-size: 1.5em; margin-bottom: 20px; color: #5B4B3A; }
+    h3 { font-size: 1.4em; margin: 20px 0 10px 0; }
 
-    /* Skills */
-    .skills ul {
-      list-style: none;
-      padding: 0;
+    p { font-size: 1.1em; line-height: 1.6; margin-bottom: 15px; }
+
+    /* Skills List */
+    .skills {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
     }
     .skills li {
+      background-color: #EFE6DD; /* warm cream */
       margin: 10px;
-      background-color: #2980B9;
-      color: white;
-      padding: 12px 20px;
+      padding: 10px 15px;
       border-radius: 8px;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
       font-weight: bold;
-      font-size: 1em;
-      display: inline-block;
     }
 
     /* Buttons */
-    .hero-button {
-      background-color: #2980B9;
-      color: white;
-      padding: 12px 25px;
-      margin: 8px;
-      border-radius: 5px;
-      font-size: 1.1em;
-      transition: 0.3s;
+    .page-buttons a {
       display: inline-block;
+      margin: 10px 15px;
+      padding: 12px 25px;
+      border-radius: 5px;
+      background-color: #A6785A; /* earthy burnt orange/brown */
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
     }
-    .hero-button:hover { background-color: #1F618D; }
+    .page-buttons a:hover { background-color: #8B5E3C; }
 
     /* Footer */
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #2C3E50;
+      background-color: #5B4B3A; /* deep earthy brown */
       color: white;
       font-size: 0.9em;
+      margin-top: 50px;
     }
-    footer a { color: #5DADE2; }
+    footer a { color: #D9CFC1; }
   </style>
 </head>
 <body>
@@ -108,42 +102,35 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- Header -->
-  <header>
+  <!-- About Me Section -->
+  <section>
     <h1>About Me 👩‍💻</h1>
     <h2>Kirsten Livingston</h2>
-  </header>
-
-  <!-- About Section -->
-  <section>
     <p>Hi! I’m Kirsten Livingston, an emerging data scientist passionate about turning raw data into actionable insights. I am currently pursuing my <strong>Bachelor's degree in Data Analytics</strong> at Bellevue University, developing skills to clean, analyze, and visualize data, as well as build predictive models. 📚💡</p>
+    
+    <h3>Skills & Proficiencies 🛠️</h3>
+    <ul class="skills">
+      <li>Python 🐍</li>
+      <li>R 📊</li>
+      <li>SQL 💾</li>
+      <li>Data Analysis 📚</li>
+      <li>Data Visualization 📈 (Matplotlib, Seaborn, Tableau)</li>
+      <li>Tools & Platforms 🔨 (GitHub, Jupyter Notebook, RStudio, Excel, Google Sheets)</li>
+      <li>Data Cleaning & Wrangling 🧹</li>
+      <li>Exploratory Data Analysis 🔎</li>
+      <li>Predictive Modeling & Machine Learning 🤖</li>
+      <li>Interactive Dashboards 📊</li>
+    </ul>
 
-    <h2>Skills & Proficiencies 🛠️</h2>
-    <div class="skills">
-      <ul>
-        <li>Python 🐍</li>
-        <li>R 📊</li>
-        <li>SQL 💾</li>
-        <li>Data Analysis 📚</li>
-        <li>Data Visualization 📈 (Matplotlib, Seaborn, Tableau)</li>
-        <li>Tools & Platforms 🔨 (GitHub, Jupyter Notebook, RStudio, Excel, Google Sheets)</li>
-        <li>Data Cleaning & Wrangling 🧹</li>
-        <li>Exploratory Data Analysis 🔎</li>
-        <li>Predictive Modeling & Machine Learning 🤖</li>
-        <li>Interactive Dashboards 📊</li>
-      </ul>
-    </div>
-
-    <div style="text-align:center; margin-top:30px;">
-      <a href="portfolio.html" class="hero-button">View Portfolio 📁</a>
-      <a href="contact.html" class="hero-button">Contact Me ✉️</a>
+    <div class="page-buttons">
+      <a href="portfolio.html">View Portfolio 📁</a>
+      <a href="contact.html">Contact Me ✉️</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
-    🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
   </footer>
 
 </body>
