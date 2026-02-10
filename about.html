@@ -2,18 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <title>About - Kirsten Livingston</title>
+  <style>
+    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; background-color: #ECF0F1; color: #2C3E50; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #34495E;
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    nav a:hover { background-color: #E67E22; }
+
+    /* Sections */
+    section { padding: 100px 20px 50px 20px; max-width: 900px; margin: auto; }
+    h1, h2 { text-align: center; }
+    h2 { margin-top: 20px; }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .skills li {
+      margin: 10px 20px;
+      background-color: #ffffff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+      font-weight: bold;
+    }
+
+    footer { text-align: center; padding: 20px; background-color: #2C3E50; color: white; font-size: 0.9em; }
+    footer a { color: #E67E22; }
+  </style>
 </head>
 <body>
+
+  <!-- Navigation -->
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="portfolio.html">Portfolio</a>
     <a href="contact.html">Contact</a>
   </nav>
+
+  <!-- About Section -->
   <section>
     <h1>About Me</h1>
-    <p>Write a short bio here. Include your skills, experience, and what makes you unique.</p>
+    <p>Hi! I’m Kirsten Livingston, an emerging data scientist passionate about turning raw data into actionable insights. I am currently working towards a Bachelor's degree in Data Analytics, building skills that allow me to explore datasets, visualize results, and develop predictive models.</p>
+
+    <h2>Skills & Proficiencies</h2>
+    <div class="skills">
+      <ul>
+        <li>Python, R, SQL</li>
+        <li>Data Analysis 📚</li>
+        <li>Data Visualization 📈 (Matplotlib, Seaborn, Tableau)</li>
+        <li>Tools & Platforms 🔨 (GitHub, Jupyter Notebook, RStudio, Excel, Google Sheets)</li>
+        <li>Data Cleaning & Wrangling</li>
+        <li>Exploratory Data Analysis</li>
+        <li>Predictive Modeling & Machine Learning</li>
+        <li>Interactive Dashboards</li>
+      </ul>
+    </div>
   </section>
+
+  <footer>
+    Email: <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
+    GitHub: <a href="https://github.com/kirstenlynn-ops" target="_blank">kirstenlynn-ops</a>
+  </footer>
+
 </body>
 </html>
+
