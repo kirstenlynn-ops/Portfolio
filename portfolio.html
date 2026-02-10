@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <title>Portfolio - Kirsten Livingston</title>
   <style>
-    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #2C3E50; }
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #F5F1E9; /* soft cream */
+      color: #3E2C2A; /* dark brown text */
+      line-height: 1.6;
+      text-align: center;
+    }
     a { text-decoration: none; color: inherit; }
 
     /* Navigation Bar */
@@ -12,7 +19,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #34495E;
+      background-color: #8B5E3C; /* warm brown */
       display: flex;
       justify-content: center;
       z-index: 100;
@@ -22,69 +29,77 @@
       padding: 16px 20px;
       display: inline-block;
       font-weight: bold;
+      transition: 0.3s;
     }
-    nav a:hover { background-color: #2980B9; }
+    nav a:hover { background-color: #A6785A; }
 
-    /* Header */
-    header {
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 20px;
-      background: linear-gradient(135deg, #5DADE2, #48C9B0);
-      color: white;
-    }
-    header h1 { font-size: 3em; margin: 10px 0; }
-    header h2 { font-size: 1.5em; margin: 5px 0; }
-
-    /* Section */
+    /* Main Section */
     section {
-      padding: 50px 20px;
+      padding: 120px 20px 50px 20px;
       max-width: 900px;
       margin: auto;
-      background-color: #ECF0F1;
+      background-color: #D9CFC1; /* light earthy taupe */
       border-radius: 10px;
       box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-      margin-top: -50px;
     }
 
-    /* Projects */
-    .project {
-      background-color: white;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
-    }
-    .project h3 { margin-top: 0; }
-    .project a { color: #2980B9; }
-    .project a:hover { text-decoration: underline; }
+    h1 { font-size: 2.8em; margin-bottom: 10px; }
+    h2 { font-size: 1.5em; margin-bottom: 30px; color: #5B4B3A; }
+    h3 { font-size: 1.4em; margin: 20px 0 10px 0; }
 
-    /* Buttons */
-    .hero-button {
-      background-color: #2980B9;
-      color: white;
-      padding: 12px 25px;
-      margin: 8px;
-      border-radius: 5px;
-      font-size: 1.1em;
-      transition: 0.3s;
+    /* Project List */
+    .projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .project-card {
+      background-color: #EFE6DD; /* soft cream card */
+      padding: 15px 20px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 700px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+    .project-card a {
       display: inline-block;
+      margin-top: 8px;
+      padding: 8px 15px;
+      border-radius: 5px;
+      background-color: #A6785A; /* earthy button */
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
     }
-    .hero-button:hover { background-color: #1F618D; }
+    .project-card a:hover { background-color: #8B5E3C; }
+
+    /* Page buttons */
+    .page-buttons {
+      margin-top: 30px;
+    }
+    .page-buttons a {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 12px 25px;
+      border-radius: 5px;
+      background-color: #A6785A;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .page-buttons a:hover { background-color: #8B5E3C; }
 
     /* Footer */
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #2C3E50;
+      background-color: #5B4B3A;
       color: white;
       font-size: 0.9em;
+      margin-top: 50px;
     }
-    footer a { color: #5DADE2; }
+    footer a { color: #D9CFC1; }
   </style>
 </head>
 <body>
@@ -97,46 +112,40 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- Header -->
-  <header>
+  <!-- Portfolio Section -->
+  <section>
     <h1>My Portfolio 📁</h1>
     <h2>Kirsten Livingston</h2>
-  </header>
 
-  <!-- Projects Section -->
-  <section>
-    <h2>Projects 🎬</h2>
-
-    <div class="project">
-      <h3>📽️ Project 1: Predictive Engagement Modeling for Retail Banking</h3>
-      <p><a href="https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking" target="_blank">View Project on GitHub</a></p>
+    <h3>Projects 🎬</h3>
+    <div class="projects">
+      <div class="project-card">
+        <p>📽️ Project 1: Predictive Engagement Modeling for Retail Banking</p>
+        <a href="https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking" target="_blank">View Project on GitHub</a>
+      </div>
+      <div class="project-card">
+        <p>📽️ Project 2: [Project Name]</p>
+        <a href="#">View Project on GitHub</a>
+      </div>
+      <div class="project-card">
+        <p>📽️ Project 3: [Project Name]</p>
+        <a href="#">View Project on GitHub</a>
+      </div>
+      <div class="project-card">
+        <p>📽️ Project 4: [Project Name]</p>
+        <a href="#">View Project on GitHub</a>
+      </div>
     </div>
 
-    <div class="project">
-      <h3>📽️ Project 2: [Project Name]</h3>
-      <p><a href="[link]" target="_blank">View Project on GitHub</a></p>
-    </div>
-
-    <div class="project">
-      <h3>📽️ Project 3: [Project Name]</h3>
-      <p><a href="[link]" target="_blank">View Project on GitHub</a></p>
-    </div>
-
-    <div class="project">
-      <h3>📽️ Project 4: [Project Name]</h3>
-      <p><a href="[link]" target="_blank">View Project on GitHub</a></p>
-    </div>
-
-    <div style="text-align:center; margin-top:30px;">
-      <a href="about.html" class="hero-button">Learn About Me 👩‍💻</a>
-      <a href="contact.html" class="hero-button">Contact Me ✉️</a>
+    <div class="page-buttons">
+      <a href="about.html">Learn About Me 👩‍💻</a>
+      <a href="contact.html">Contact Me ✉️</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
-    🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
   </footer>
 
 </body>
