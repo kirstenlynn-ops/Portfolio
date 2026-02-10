@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <title>Kirsten Livingston Portfolio</title>
   <style>
-    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; text-align: center; color: #2C3E50; }
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      text-align: center; 
+      background-color: #E8F5E9; /* Light green background */ 
+      color: #2C3E50;
+    }
     a { text-decoration: none; color: inherit; }
 
     /* Navigation Bar */
@@ -12,7 +18,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #34495E;
+      background-color: #2E7D32; /* Dark green nav */
       display: flex;
       justify-content: center;
       z-index: 100;
@@ -22,8 +28,9 @@
       padding: 16px 20px;
       display: inline-block;
       font-weight: bold;
+      transition: 0.3s;
     }
-    nav a:hover { background-color: #2980B9; }
+    nav a:hover { background-color: #388E3C; }
 
     /* Hero Section */
     header {
@@ -34,27 +41,35 @@
       align-items: center;
       text-align: center;
       padding: 20px;
-      background: linear-gradient(135deg, #5DADE2, #48C9B0);
-      color: white;
+      background-color: #A5D6A7; /* Slightly stronger green */
     }
 
     header img {
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      object-fit: cover;
+      width: 300px;
+      height: auto;
+      border-radius: 10px; /* slight rounding */
+      border: 3px solid #66BB6A; /* green accent border */
       margin-bottom: 20px;
-      border: 4px solid #2C3E50;
-      background-color: #BDC3C7;
+      object-fit: cover;
     }
 
-    header h1 { font-size: 3em; margin: 10px 0; }
-    header h2 { font-size: 1.5em; margin: 5px 0; }
-    header p { font-size: 1.2em; margin: 5px 0 20px 0; }
+    header h1 {
+      font-size: 3em;
+      margin: 10px 0;
+    }
 
-    /* Buttons */
+    header h2 {
+      font-size: 1.5em;
+      margin: 5px 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 5px 0 20px 0;
+    }
+
     .hero-button {
-      background-color: #2980B9;
+      background-color: #66BB6A;
       color: white;
       padding: 12px 25px;
       margin: 8px;
@@ -62,25 +77,30 @@
       font-size: 1.1em;
       transition: 0.3s;
     }
-    .hero-button:hover { background-color: #1F618D; }
+    .hero-button:hover { background-color: #388E3C; }
 
-    /* Mini Bio Section */
-    section { max-width: 800px; margin: 50px auto; text-align: center; }
-    .skills span {
-      background:#2980B9; color:white; padding:10px 15px; margin:5px; border-radius:5px; display:inline-block; font-weight:bold;
+    /* Intro Text Section */
+    .intro {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #F1F8F3; /* subtle highlight */
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      margin-top: -50px; /* pull it slightly up over header */
     }
-    .projects ul { list-style:none; padding:0; }
-    .projects li { margin: 10px 0; font-size:1.1em; }
+    .intro h3 { font-size: 1.6em; margin-bottom: 15px; }
+    .intro p { font-size: 1.1em; line-height: 1.6; }
 
     /* Footer */
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #2C3E50;
+      background-color: #1B5E20; /* dark forest green */
       color: white;
       font-size: 0.9em;
     }
-    footer a { color: #5DADE2; }
+    footer a { color: #66BB6A; }
   </style>
 </head>
 <body>
@@ -96,9 +116,9 @@
   <!-- Hero / Intro Section -->
   <header>
     <img src="images/IMG_6964(4).PNG" alt="Kirsten Livingston">
-    <h1>Kirsten Livingston 🙌</h1>
-    <h2>Aspiring Data Scientist 💻</h2>
-    <p>Omaha, Nebraska 📍</p>
+    <h1>Kirsten Livingston</h1>
+    <h2>Aspiring Data Scientist</h2>
+    <p>Omaha, Nebraska</p>
     <div>
       <a href="about.html" class="hero-button">Learn About Me</a>
       <a href="portfolio.html" class="hero-button">View My Work</a>
@@ -106,35 +126,17 @@
     </div>
   </header>
 
-  <!-- Mini Bio Section -->
-  <section>
-    <h2>Hi! I'm Kirsten Livingston 👋</h2>
-    <p>Hello! I’m Kirsten Livingston, I was drawn to data analytics because I’m curious about understanding how things work behind the scenes and using insights to solve real-world problems. Outside of work, I love experimenting with Python projects, staying up-to-date on data science innovations, sketching visual concepts, analyzing datasets for personal projects, and exploring creative ways to tell stories with data.😁</p>
-
-    <!-- Skills Snapshot -->
-    <div class="skills">
-      <span>Python 🐍</span>
-      <span>R 📊</span>
-      <span>SQL 💾</span>
-      <span>Data Visualization 📈</span>
-      <span>GitHub | Jupyter | RStudio | Excel</span>
-    </div>
-
-    <!-- Mini Project Preview -->
-    <div class="projects">
-      <h3>Recent Projects 🎯</h3>
-      <ul>
-        <li>📽️ <a href="https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking" target="_blank">Predictive Engagement Modeling for Retail Banking</a></li>
-        <li>📽️ <a href="portfolio.html">View more projects</a></li>
-      </ul>
-    </div>
+  <!-- Intro Text Section -->
+  <section class="intro">
+    <h3>Welcome! 🌟</h3>
+    <p>Hi! I’m Kirsten Livingston, an emerging data scientist passionate about turning raw data into actionable insights. I specialize in Python, R, SQL, data visualization 📊, and predictive modeling 🤖. Currently pursuing my <strong>Bachelor’s in Data Analytics</strong>, I aim to transform complex data into meaningful solutions.</p>
+    <p>Explore my portfolio to see the projects I’ve been working on, or reach out to connect! 💬</p>
   </section>
 
   <!-- Footer -->
   <footer>
-    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
-    🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a> | 
-    &copy; Kirsten Livingston
+    Email: <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
+    GitHub: <a href="https://github.com/kirstenlynn-ops" target="_blank">kirstenlynn-ops</a>
   </footer>
 
 </body>
