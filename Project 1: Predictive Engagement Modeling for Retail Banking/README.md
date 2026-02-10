@@ -1,4 +1,5 @@
-# 🔮PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
+# Applied Data Science (DSC-450) | Project 01
+🔮PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING 
 ---
 **Team Members:** Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
 
