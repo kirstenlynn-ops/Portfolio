@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kirsten Livingston Portfolio</title>
+  <style>
+    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; text-align: center; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #34495E;
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    nav a:hover { background-color: #E67E22; }
+
+    /* Hero Section */
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #2C3E50;
+      text-align: center;
+      padding: 20px;
+      background-color: #ECF0F1;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #E67E22;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 10px 0;
+    }
+
+    header h2 {
+      font-size: 1.5em;
+      margin: 5px 0;
+      color: #34495E;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 5px 0 20px 0;
+      color: #7F8C8D;
+    }
+
+    /* Buttons */
+    .hero-button {
+      background-color: #E67E22;
+      color: white;
+      padding: 12px 25px;
+      margin: 8px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      transition: 0.3s;
+    }
+    .hero-button:hover { background-color: #D35400; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2C3E50;
+      color: white;
+      font-size: 0.9em;
+    }
+    footer a { color: #E67E22; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hero / Intro Section -->
+  <header>
+    <img src="images/kirsten_headshot.png" alt="Kirsten Livingston">
+    <h1>Kirsten Livingston</h1>
+    <h2>Aspiring Data Scientist</h2>
+    <p>Omaha, Nebraska</p>
+    <div>
+      <a href="about.html" class="hero-button">Learn About Me</a>
+      <a href="portfolio.html" class="hero-button">View My Work</a>
+      <a href="contact.html" class="hero-button">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- Footer -->
+  <footer>
+    Email: <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
+    GitHub: <a href="https://github.com/kirstenlynn-ops" target="_blank">kirstenlynn-ops</a>
+  </footer>
+
+</body>
+</html>
