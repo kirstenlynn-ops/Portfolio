@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 1 - Predictive Engagement Modeling</title>
+  <style>
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #E6F0EA; /* soft green background */
+      color: #2C3E50; 
+      line-height: 1.6; 
+      text-align: center;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #4C5B3F; /* dark green-brown contrast */
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    nav a:hover { background-color: #7E6B5A; } /* lighter brown hover */
+
+    /* Header / Hero Section */
+    header {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #2C3E50;
+      text-align: center;
+      padding: 20px;
+      background-color: #A3C1A0; /* earthy green header */
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+    header h1 { font-size: 2.5em; margin: 10px 0; }
+    header h2 { font-size: 1.5em; margin: 5px 0; color: #4C5B3F; }
+
+    /* Sections */
+    section { 
+      padding: 100px 20px 50px 20px; 
+      max-width: 900px; 
+      margin: auto; 
+    }
+    h2 { margin-top: 20px; color: #4C5B3F; }
+
+    /* Project Cards / Visuals */
+    .project-card {
+      margin: 30px 0; 
+      padding: 15px; 
+      background-color: #FFFFFF; 
+      border-radius: 10px; 
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    }
+    .project-card img {
+      max-width: 90%;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+      margin-top: 15px;
+    }
+    .project-card p {
+      font-style: italic; 
+      color: #4B5D3A; /* earthy dark green for captions */
+      margin-top: 10px;
+    }
+
+    /* Footer */
+    footer { 
+      text-align: center; 
+      padding: 20px; 
+      background-color: #4C5B3F; 
+      color: white; 
+      font-size: 0.9em; 
+    }
+    footer a { color: #A3C1A0; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Header / Hero Section -->
+  <header>
+    <h1>Project 1 🎬</h1>
+    <h2>Predictive Engagement Modeling for Retail Banking</h2>
+  </header>
+
+  <!-- Project Overview -->
+  <section>
+    <h2>Project Overview 📝</h2>
+    <p>This project analyzes customer engagement in retail banking to predict potential disengagement and churn. I focused on data cleaning, exploratory analysis, and building predictive models to provide actionable insights. 📊💡</p>
+
+    <h2>Project Links 🔗</h2>
+    <div class="project-card">
+      <p>🤙 My Version:</p>
+      <a href="https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking" target="_blank">View My Repository</a>
+      <p>👥 Team Repository:</p>
+      <a href="https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1" target="_blank">View Team Repository</a>
+    </div>
+  </section>
+
+  <!-- Key Results / Visuals -->
+  <section>
+    <h2>Key Results & Visualizations 📈</h2>
+
+    <!-- Figure 1 -->
+    <div class="project-card">
+      <img src="images/proj1fig1.png" alt="Project Figure 1">
+      <p>This dashboard visualizes the baseline 88/12 class imbalance and identifies “soft churn” customers through duration analysis. It allows management to see that disengagement is often visible early in the call cycle.</p>
+    </div>
+
+    <!-- Figure 2 -->
+    <div class="project-card">
+      <img src="images/proj1fig2.png" alt="Project Figure 2">
+      <p>This KDE density plot highlights the concentration of likely disengagement. <br>
+      <strong>Business Action:</strong> The dark “Red Zone” identifies customers aged 30-50 with calls under 200 seconds. Representatives should be trained to conclude these low propensity calls quickly to save resources.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    Email: <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
+    GitHub: <a href="https://github.com/kirstenlynn-ops" target="_blank">kirstenlynn-ops</a>
+  </footer>
+
+</body>
+</html>
 
