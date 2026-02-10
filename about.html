@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>About - Kirsten Livingston</title>
   <style>
-    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #ECF0F1; color: #2C3E50; line-height: 1.6; }
+    body { margin:0; font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #2C3E50; }
     a { text-decoration: none; color: inherit; }
 
     /* Navigation Bar */
@@ -23,12 +23,36 @@
       display: inline-block;
       font-weight: bold;
     }
-    nav a:hover { background-color: #E67E22; }
+    nav a:hover { background-color: #2980B9; }
+
+    /* Hero / Header */
+    header {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, #5DADE2, #48C9B0);
+      color: white;
+    }
+    header h1 { font-size: 3em; margin: 10px 0; }
+    header h2 { font-size: 1.5em; margin: 5px 0; }
 
     /* Section */
-    section { padding: 120px 20px 50px 20px; max-width: 900px; margin: auto; }
-    h1, h2 { text-align: center; }
-    h2 { margin-top: 20px; }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #ECF0F1;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      margin-top: -50px;
+    }
+
+    section p { font-size: 1.2em; margin-bottom: 20px; }
+    h2 { text-align: center; margin: 30px 0 20px 0; }
 
     /* Skills */
     .skills ul {
@@ -39,17 +63,39 @@
       justify-content: center;
     }
     .skills li {
-      margin: 10px 20px;
-      background-color: #ffffff;
-      padding: 10px 15px;
-      border-radius: 5px;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+      margin: 10px;
+      background-color: #2980B9;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
       font-weight: bold;
+      font-size: 1em;
+      display: inline-block;
     }
 
+    /* Buttons */
+    .hero-button {
+      background-color: #2980B9;
+      color: white;
+      padding: 12px 25px;
+      margin: 8px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      transition: 0.3s;
+      display: inline-block;
+    }
+    .hero-button:hover { background-color: #1F618D; }
+
     /* Footer */
-    footer { text-align: center; padding: 20px; background-color: #2C3E50; color: white; font-size: 0.9em; }
-    footer a { color: #E67E22; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2C3E50;
+      color: white;
+      font-size: 0.9em;
+    }
+    footer a { color: #5DADE2; }
   </style>
 </head>
 <body>
@@ -62,29 +108,42 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- About Me Section -->
+  <!-- Header -->
+  <header>
+    <h1>About Me 👩‍💻</h1>
+    <h2>Kirsten Livingston</h2>
+  </header>
+
+  <!-- About Section -->
   <section>
-    <h1>About Me</h1>
-    <p>Hi! I’m Kirsten Livingston, an emerging data scientist passionate about turning raw data into actionable insights. I am currently pursuing a <strong>Bachelor's degree in Data Analytics</strong> at Bellevue University, developing skills to clean, analyze, and visualize data, as well as build predictive models.</p>
-    <h2>Skills & Proficiencies</h2>
+    <p>Hi! I’m Kirsten Livingston, an emerging data scientist passionate about turning raw data into actionable insights. I am currently pursuing my <strong>Bachelor's degree in Data Analytics</strong> at Bellevue University, developing skills to clean, analyze, and visualize data, as well as build predictive models. 📚💡</p>
+
+    <h2>Skills & Proficiencies 🛠️</h2>
     <div class="skills">
       <ul>
-        <li>Python, R, SQL</li>
+        <li>Python 🐍</li>
+        <li>R 📊</li>
+        <li>SQL 💾</li>
         <li>Data Analysis 📚</li>
         <li>Data Visualization 📈 (Matplotlib, Seaborn, Tableau)</li>
         <li>Tools & Platforms 🔨 (GitHub, Jupyter Notebook, RStudio, Excel, Google Sheets)</li>
-        <li>Data Cleaning & Wrangling</li>
-        <li>Exploratory Data Analysis</li>
-        <li>Predictive Modeling & Machine Learning</li>
-        <li>Interactive Dashboards</li>
+        <li>Data Cleaning & Wrangling 🧹</li>
+        <li>Exploratory Data Analysis 🔎</li>
+        <li>Predictive Modeling & Machine Learning 🤖</li>
+        <li>Interactive Dashboards 📊</li>
       </ul>
+    </div>
+
+    <div style="text-align:center; margin-top:30px;">
+      <a href="portfolio.html" class="hero-button">View Portfolio 📁</a>
+      <a href="contact.html" class="hero-button">Contact Me ✉️</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    Email: <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
-    GitHub: <a href="https://github.com/kirstenlynn-ops" target="_blank">kirstenlynn-ops</a>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 
+    🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
   </footer>
 
 </body>
