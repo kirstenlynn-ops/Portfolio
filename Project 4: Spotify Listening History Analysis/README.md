@@ -27,10 +27,10 @@ One user will demonstarte more consistent listening patterns across time of day 
 
 
 - **Research Question 2:**
-Do users exhibit distinct mood-based habits?
+Do users exhibit distinct listening style patterns based on track and artist repetition, skip behavior, and shuffle usage?
 
 Hypothesis 2:
-Audio fetaures such as energry and valence will clsuter differently for each user, indictaing personalized mood-based listening patterns rather than random song selection.
+One user (potentially User A) will show more habitual listening behavior (repeated tracks/artists, less skipping, more consistent shuffle usage), while the other (potentially User B) will show more exploratory listening (more variety, higher skip rates, less consistent shuffle usage).
 
 
 - **Research Question 3:**
