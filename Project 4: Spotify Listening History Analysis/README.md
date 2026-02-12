@@ -1,12 +1,13 @@
 # 🎧 Spotify Listening History Analysis (2022–2025)
 - Prepared by: Kirsten Livingston
 
-|Project Deliverables & Repository Access   |
-|-------------------------------------------|
-| GitHub Repository: 
-|(Contains 
-|Final Static Dashboard
-|(Final visuals ready for non-technical users|
+|Project Deliverables & Repository Access                                                                |
+|--------------------------------------------------------------------------------------------------------|
+|GitHub Folder: https://github.com/kirstenlynn-ops/Portfolio/tree/main\                                  |     |Project%204%3A%20Spotify%20Listening%20History%20Analysis                                               |
+|(Contains notebooks, data work cycle, datasets throughout cleaning and feature engineering              |
+|Final Static Dashboard: https://kirstenlynn-ops.github.io/Portfolio/images/Spotify_Static_Dashboard.htm |
+|(Final visuals ready for non-technical users 
+
 ## Introduction
 
 Streaming platforms collect huge amounts of user interaction data, but most listeners rarely get a deeper look at their own habits. Features like _Spotify Wrapped_ are fun and informative, yet they often overlook deeper, time-driven patterns and behavioral insights.
