@@ -1,185 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 4 | Spotify Listening Dashboard</title>
+  <meta charset="UTF-8">
+  <title>Project 4 | Spotify Listening Dashboard</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-            color: #222;
-        }
+  <style>
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #F0F4EF; /* soft green */
+      color: #3E2C2A; /* dark brown text */
+      line-height: 1.6;
+      text-align: center;
+    }
 
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 50px 30px;
-        }
+    a { text-decoration: none; color: inherit; }
 
-        h1 {
-            text-align: center;
-            font-size: 2.3rem;
-            margin-bottom: 10px;
-        }
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #6B8E23; /* earthy green */
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
 
-        p.subtitle {
-            text-align: center;
-            font-size: 1.1rem;
-            max-width: 850px;
-            margin: 0 auto 40px auto;
-            color: #444;
-        }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+      transition: 0.3s;
+    }
 
-        .section {
-            background: white;
-            padding: 25px 30px;
-            margin-bottom: 25px;
-            border-radius: 12px;
-            box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
-        }
+    nav a:hover { background-color: #556B2F; }
 
-        h2 {
-            margin-top: 0;
-            font-size: 1.5rem;
-            color: #333;
-        }
+    /* Main Section */
+    section {
+      padding: 120px 20px 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #E6EFE6; /* light green */
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
 
-        ul {
-            padding-left: 20px;
-        }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-align:center;
+    }
 
-        .dashboard-link {
-            display: block;
-            margin: 30px auto;
-            padding: 16px 28px;
-            text-align: center;
-            background-color: #636EFA;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 10px;
-            width: fit-content;
-            transition: 0.2s;
-        }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 30px;
+      color: #5B4B3A;
+      text-align:center;
+    }
 
-        .dashboard-link:hover {
-            background-color: #505FCC;
-        }
+    h3 {
+      font-size: 1.3em;
+      margin: 20px 0 10px 0;
+    }
 
-        .links span {
-            display: inline-block;
-            margin-right: 15px;
-            font-weight: bold;
-        }
+    p { margin-bottom: 15px; }
 
-        .emoji {
-            font-size: 1.1rem;
-        }
-    </style>
+    /* Buttons */
+    .link-button {
+      display: inline-block;
+      margin: 8px 10px;
+      padding: 10px 18px;
+      border-radius: 5px;
+      background-color: #6B8E23;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .link-button:hover {
+      background-color: #556B2F;
+    }
+
+    /* Dashboard Preview Card */
+    .dashboard-card {
+      margin: 25px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.12);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5B4B3A;
+      color: white;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+
+    footer a { color: #E6EFE6; }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <!-- Title -->
-    <h1>Project 4: Spotify Listening Behavior Dashboard 🎧📊</h1>
-    <p class="subtitle">
-        Data science is not only about predictive modeling — it is also about uncovering patterns in human behavior 
-        through exploratory analytics and storytelling dashboards. In this project, I analyzed Spotify listening history 
-        from two users to compare engagement, repetition, discovery habits, and listening style.
+  <!-- Main Content -->
+  <section>
+
+    <h1>Project 4: Spotify Listening History Analysis 🎧📊</h1>
+
+    <p><strong>Exploratory data analysis is one of the most powerful ways to understand human behavior through real-world data.</strong>
+    In this project, I analyzed Spotify streaming history from two users to uncover patterns in engagement, repetition, discovery habits,
+    and listening style.</p>
+
+    <p>
+    This dashboard demonstrates my ability to clean raw time-series data, engineer behavioral metrics, and communicate insights through
+    interactive visualization. In real-world applications, this type of analysis supports personalized recommendation systems,
+    audience segmentation, and product engagement strategy for streaming platforms.
     </p>
 
-    <!-- Dashboard Button -->
-    <a class="dashboard-link" href="Final/Static_Dashboard.html" target="_blank">
-        View Full Static Dashboard Report
+    <!-- Links -->
+    <br>
+    <h3>Links 🔗</h3>
+
+    <a href="Final/Spotify_Static_Dashboard.html" class="link-button" target="_blank">
+      View Dashboard Report 📊
     </a>
 
-    <!-- Links -->
-    <div class="section">
-        <h2>Links 🔗</h2>
-        <p class="links">
-            <span>📊 Dashboard:</span> Static HTML Report <br>
-            <span>💻 GitHub Repo:</span> (add link here) <br>
-            <span>📓 Notebook:</span> (add link here)
-        </p>
-    </div>
+    <a href="https://github.com/your-repo-link-here" class="link-button" target="_blank">
+      GitHub Repo 💻
+    </a>
 
     <!-- Overview -->
-    <div class="section">
-        <h2>Project Overview 📄</h2>
-        <p>
-            This project transforms raw Spotify streaming history into a behavioral engagement dashboard. 
-            By comparing two users’ listening volume, temporal habits, diversity of artists and albums, 
-            and skip/shuffle behavior, the dashboard highlights patterns of exploration versus repetition.
-        </p>
+    <br>
+    <h3>Project Overview 📄</h3>
 
-        <p>
-            In real-world applications, this type of analysis supports personalized recommendation systems, 
-            user segmentation, and product engagement strategy for streaming platforms.
-        </p>
-    </div>
+    <p>
+      This project transforms raw Spotify listening logs into a behavioral engagement dashboard.
+      By comparing two users across volume, temporal habits, artist diversity, and skip/shuffle behavior,
+      the analysis highlights differences between habitual listening and exploratory discovery.
+    </p>
 
     <!-- Workflow -->
-    <div class="section">
-        <h2>Project Workflow 🪜</h2>
-        <ul>
-            <li><b>P4 - S1 Data Wrangling:</b> Cleaning timestamps, merging histories, feature engineering</li>
-            <li><b>P4 - S2 Behavioral Metrics:</b> Engagement, repetition, discovery, skip/shuffle rates</li>
-            <li><b>P4 - S3 Dashboard Development:</b> Plotly visualizations + static HTML export</li>
-            <li><b>P4 - S4 Insight Storytelling:</b> Translating patterns into user behavior narratives</li>
-        </ul>
-    </div>
+    <br>
+    <h3>Project Workflow 🪜</h3>
+    <ul>
+      <li>P4 - S1 Data Wrangling: Cleaning timestamps, merging histories, feature engineering</li>
+      <li>P4 - S2 Behavioral Metrics: Engagement, repetition, discovery, skip/shuffle rates</li>
+      <li>P4 - S3 Visualization: Plotly figure development + dashboard structuring</li>
+      <li>P4 - S4 Reporting: Exporting a static interactive HTML dashboard for deployment</li>
+    </ul>
 
-    <!-- Visual Highlights -->
-    <div class="section">
-        <h2>Visual Highlights 📷</h2>
-        <ul>
-            <li><b>Figure 1:</b> Total Listening Volume — compares overall engagement</li>
-            <li><b>Figure 9:</b> Monthly Artist Diversity — tracks exploration over time</li>
-            <li><b>Figure 11:</b> Shuffle vs Skip Behavior — reveals listening style differences</li>
-        </ul>
+    <!-- Dashboard Highlight -->
+    <br>
+    <h3>Dashboard Deliverable 📷</h3>
+
+    <div class="dashboard-card">
+      <p><strong>Main Output:</strong> Interactive Spotify Listening Dashboard</p>
+      <p>
+        Includes 11 figures covering engagement volume, temporal consistency, artist repetition,
+        album diversity, and skip/shuffle behavior patterns.
+      </p>
+
+      <a href="Final/Spotify_Static_Dashboard.html" class="link-button" target="_blank">
+        Open Full Dashboard
+      </a>
     </div>
 
     <!-- Results -->
-    <div class="section">
-        <h2>Key Results 🟰</h2>
-        <ul>
-            <li><b>Engagement Differences:</b> User A listens more consistently across time</li>
-            <li><b>Exploration vs Habit:</b> User B demonstrates broader artist and album diversity</li>
-            <li><b>Listening Style:</b> Skip/shuffle patterns show distinct consumption preferences</li>
-            <li><b>Behavioral Shifts:</b> Discovery trends alternate yearly, with User B peaking in the final year</li>
-        </ul>
-    </div>
+    <br>
+    <h3>Key Results 🟰</h3>
+    <ul>
+      <li><strong>Engagement:</strong> User A demonstrates more consistent listening volume over time.</li>
+      <li><strong>Diversity:</strong> User B explores a broader range of artists and albums monthly.</li>
+      <li><strong>Listening Style:</strong> Skip and shuffle behavior reveal distinct consumption preferences.</li>
+      <li><strong>Behavioral Shifts:</strong> Discovery trends alternate yearly, with User B peaking in the final year.</li>
+    </ul>
 
-    <!-- Tech Stack -->
-    <div class="section">
-        <h2>Technical Stack 🔨</h2>
-        <ul>
-            <li><b>Data Processing:</b> pandas, NumPy</li>
-            <li><b>Visualization:</b> Plotly Express, Plotly Graph Objects</li>
-            <li><b>Dashboard Export:</b> Static HTML Reporting</li>
-            <li><b>Environment:</b> Jupyter Notebook + GitHub Pages Deployment</li>
-        </ul>
-    </div>
+    <!-- Technical Stack -->
+    <br>
+    <h3>Technical Stack 🔨</h3>
+    <p>Core: pandas, NumPy</p>
+    <p>Visualization: Plotly Express, Plotly Graph Objects</p>
+    <p>Dashboard Export: Static interactive HTML reporting</p>
+    <p>Environment: Jupyter Notebook + GitHub Pages deployment</p>
 
     <!-- Ethics -->
-    <div class="section">
-        <h2>Ethical Considerations ⚖️</h2>
-        <ul>
-            <li>Listening data anonymized (no personal identifiers)</li>
-            <li>Behavioral analytics used only for insight, not surveillance</li>
-            <li>Some tracks are labeled as explicit and may reference adult themes such as violence, substance use, or mature subject matter.</li>
-            <li>Dashboards designed for transparency and interpretability</li>
-            <li>Future recommendation use would require consent and opt-out controls</li>
-        </ul>
-    </div>
+    <br>
+    <h3>Ethical Considerations ⚖️</h3>
+    <ul>
+      <li>Listening data anonymized (no personal identifiers)</li>
+      <li>Behavioral analytics used only for insight, not surveillance</li>
+      <li>Dashboards designed for transparency and interpretability</li>
+      <li>Recommendation use would require consent and opt-out controls</li>
+    </ul>
 
-</div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> |
+    🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
+  </footer>
 
 </body>
 </html>
