@@ -31,5 +31,8 @@
 
 -📽️Project 3: [link]
 
--📽️Project 4: [link]
+-📽️Project 4: Spotify Listening History Analysis
+| Project Site 🤙 | GitHub Folder 👥 | Dashboard 📦 |
+|-----------------|---------------------|---------------|
+| [View on GitHub]([link-for-project-site](https://kirstenlynn-ops.github.io/Portfolio/project4.html)) | [Task Folder]([link-for-team-repo](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%204%3A%20Spotify%20Listening%20History%20Analysis)) | [Dashboard]([link-for-dashboard](https://kirstenlynn-ops.github.io/Portfolio/images/Spotify_Static_Dashboard.htm)) |
 
