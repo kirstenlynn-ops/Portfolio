@@ -30,7 +30,7 @@
 -📽️Project 2: Clinical Data Remediation
 | Project Site 🤙 | Team Repo 👥 | DQI Framework 📦 |
 |-----------------|---------------|-------------------|
-| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline)) | [DQI Link](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md) |
+| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline) | [DQI Link](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md) |
 
 
 -📽️Project 3: [link]
