@@ -1,80 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2 | Clinical Data Remediation 🏥🧹</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Project 2 - Kirsten Livingston</title>
+  <style>
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #F0F4EF; /* soft green */
+      color: #3E2C2A; /* dark brown text */
+      line-height: 1.6;
+      text-align: center;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #6B8E23; /* earthy green */
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { background-color: #556B2F; }
+
+    /* Main Section */
+    section {
+      padding: 120px 20px 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #E6EFE6; /* light green */
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    h1 { font-size: 2.5em; margin-bottom: 10px; text-align:center; }
+    h2 { font-size: 1.5em; margin-bottom: 30px; color: #5B4B3A; text-align:center; }
+    h3 { font-size: 1.3em; margin: 20px 0 10px 0; }
+
+    p { margin-bottom: 15px; }
+
+    /* Links / Buttons */
+    .link-button {
+      display: inline-block;
+      margin: 8px 10px;
+      padding: 10px 18px;
+      border-radius: 5px;
+      background-color: #6B8E23;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .link-button:hover { background-color: #556B2F; }
+
+    /* Visuals */
+    .visuals img {
+      max-width: 100%;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5B4B3A;
+      color: white;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+    footer a { color: #E6EFE6; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Project 2 | Clinical Data Remediation 🏥🧹</h1>
-    </header>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>An automated Python pipeline for clinical data remediation and multi-dimensional quality assessment of the UCI Diabetes 130-US Hospitals dataset, targeting a 25% improvement in the Data Quality Index (DQI) through MICE/KNN imputation.</p>
-    </section>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <section id="links">
-        <h2>Links 🔗</h2>
-        <ul>
-            <li><a href="https://pandakitty.github.io/Diabetes_Clinical_Remediation_Pipeline/" target="_blank">Project Overview 📄</a></li>
-            <li><a href="#" target="_blank">GitHub Folder 💻</a></li>
-            <li><a href="#" target="_blank">Annotated Bibliography 📚</a></li>
-        </ul>
-    </section>
+  <!-- Project Section -->
+  <section>
+    <h1>Project 2 | Clinical Data Remediation 🏥🧹</h1>
+    <p><strong>This project develops an automated Python pipeline for clinical data remediation and multi-dimensional quality assessment of the UCI Diabetes 130-US Hospitals dataset.</strong> The primary goal was to achieve a measurable 25% improvement in the Data Quality Index (DQI) using advanced MICE and KNN imputation methods. This analysis demonstrates skills in data cleaning, statistical imputation, consistency normalization, and visualization for high-fidelity, predictive-ready clinical datasets. 🧹📊💻</p>
 
-    <section id="workflow">
-        <h2>Project Workflow 🪜</h2>
-        <ol>
-            <li><strong>P2 - S1 Data Profiling:</strong> Baseline assessment of dataset, null detection, and initial DQI calculation.</li>
-            <li><strong>P2 - S2 Data Remediation:</strong> Apply MICE/KNN imputation and Regex-based ICD-9 normalization for completeness and consistency.</li>
-            <li><strong>P2 - S3 Visualization:</strong> Generate Comparative Distribution Plots and KDE charts to communicate improvements.</li>
-            <li><strong>P2 - S4 Reporting:</strong> Export findings and pipeline summary for stakeholders and GitHub Pages deployment.</li>
-        </ol>
-    </section>
+    <!-- Links -->
+    <br>
+    <h3>Links 🔗</h3>
+    <a href="https://pandakitty.github.io/Diabetes_Clinical_Remediation_Pipeline/" class="link-button" target="_blank">Project Overview 📄</a>
+    <a href="#" class="link-button" target="_blank">GitHub Folder 💻</a>
+    <a href="#" class="link-button" target="_blank">Annotated Bibliography 📚</a>
 
-    <section id="deliverables">
-        <h2>Deliverables 📂</h2>
-        <ul>
-            <li>Automated Python remediation pipeline (DataRemediator class)</li>
-            <li>Comparative distribution visualizations (Matplotlib & Seaborn)</li>
-            <li>DQI improvement report and annotated bibliography</li>
-        </ul>
-    </section>
+    <!-- Project Overview -->
+    <br>
+    <h3>Project Overview 📄</h3>
+    <p>This project focuses on improving the quality of clinical data by addressing three main dimensions: completeness, consistency, and validity. Using Python-based pipelines, missing values were imputed using MICE/KNN methods, ICD-9 codes were standardized into primary clinical categories, and numeric features were validated against expected ranges. The final output is a high-fidelity dataset ready for predictive modeling and visualization.</p>
 
-    <section id="key-results">
-        <h2>Key Results 🟰</h2>
-        <ul>
-            <li>Completeness: Reduced null density for <code>weight</code> from ~97% missing to <em>[XX%]</em></li>
-            <li>Consistency: Standardized <code>diag_1</code> to primary clinical categories</li>
-            <li>Validity: Ensured <code>num_lab_procedures</code> fell within 1–132, flagging outliers</li>
-            <li>Overall DQI improvement: <em>[XX% increase]</em> across three dimensions</li>
-        </ul>
-    </section>
+    <!-- Workflow -->
+    <br>
+    <h3>Project Workflow 🪜</h3>
+    <ul>
+      <li>P2 - S1 Data Profiling: Baseline assessment, null detection, and DQI calculation.</li>
+      <li>P2 - S2 Data Remediation: MICE/KNN imputation and ICD-9 normalization.</li>
+      <li>P2 - S3 Visualization: Comparative distribution plots & KDE charts for communicating improvement.</li>
+      <li>P2 - S4 Reporting: Pipeline export, documentation, and GitHub Pages deployment.</li>
+    </ul>
 
-    <section id="technical-stack">
-        <h2>Technical Stack 🔨</h2>
-        <ul>
-            <li>Data Wrangling: Pandas, NumPy</li>
-            <li>Data Remediation: Scikit-Learn (IterativeImputer), Regex normalization</li>
-            <li>Visualization: Matplotlib, Seaborn</li>
-            <li>Environment: Python 3.x, Jupyter Notebook, GitHub Pages deployment</li>
-        </ul>
-    </section>
+    <!-- Visuals -->
+    <h3>Visuals 📷</h3>
+    <br>
+    <div class="visuals">
+      <p>Figure 1: Comparative distribution plots of original vs remediated data</p>
+      <img src="images/proj2fig1.png" alt="Comparative distribution plots">
+      <p>Figure 2: KDE plots demonstrating improvement in numeric feature ranges</p>
+      <img src="images/proj2fig2.png" alt="KDE feature validation">
+    </div>
 
-    <section id="ethical">
-        <h2>Ethical Considerations ⚖️</h2>
-        <ul>
-            <li>Patient data anonymized — no personal identifiers included</li>
-            <li>Pipeline designed for transparency</li>
-            <li>Remediation methods aimed at improving predictive integrity, not manipulating outcomes</li>
-        </ul>
-    </section>
+    <!-- Results -->
+    <br>
+    <h3>Results 🟰</h3>
+    <p>Completeness: Reduced null density for <code>weight</code> from ~97% missing to <em>[XX%]</em></p>
+    <p>Consistency: Standardized <code>diag_1</code> to primary clinical categories</p>
+    <p>Validity: Ensured <code>num_lab_procedures</code> fell within 1–132, flagging outliers</p>
+    <p>Overall DQI improvement: <em>[XX% increase]</em></p>
 
-    <footer>
-        <p>📧 lynnmarieliving@gmail.com | 🔗 <a href="https://github.com/pandakitty" target="_blank">GitHub</a></p>
-    </footer>
+    <!-- Technical Stack -->
+    <br>
+    <h3>Technical Stack 🔨</h3>
+    <p>Data Wrangling: pandas, NumPy</p>
+    <p>Data Remediation: Scikit-Learn (IterativeImputer), Regex normalization</p>
+    <p>Visualization: Matplotlib, Seaborn</p>
+    <p>Environment: Python 3.x, Jupyter Notebook, GitHub Pages deployment</p>
+
+    <!-- Ethical Considerations -->
+    <br>
+    <h3>Ethical Considerations ⚖️</h3>
+    <ul>
+      <li>Patient data anonymized — no personal identifiers included</li>
+      <li>Pipeline designed for transparency</li>
+      <li>Remediation methods aimed at improving predictive integrity, not manipulating outcomes</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
+  </footer>
+
 </body>
 </html>
