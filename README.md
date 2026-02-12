@@ -27,7 +27,11 @@
 | [View on GitHub](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking) | [View on GitHub](https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1) |
 
 
--📽️Project 2: [link]
+-📽️Project 2: Clinical Data Remediation
+| Project Site 🤙 | Team Repo 👥 | DQI Framework 📦 |
+|-----------------|---------------|-------------------|
+| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline)) | [DQI Link](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md) |
+
 
 -📽️Project 3: [link]
 
