@@ -22,9 +22,9 @@
 
 -📽️Project 1: Predictive Engagement Modeling for Retail Banking
 
-| My Version 🤙 | Team Repo 👥 |
-|---------------|--------------|
-| [View on GitHub](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking) | [View on GitHub](https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1) |
+| My Version 🤙 | Team Repo 👥 | Project Site 🤙 |
+|---------------|---------------|------------------|
+| [View on GitHub](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking) | [View on GitHub](https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1) | [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project1.html) |
 
 
 -📽️Project 2: Clinical Data Remediation
