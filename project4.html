@@ -4,54 +4,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 4 | Spotify Listening Dashboard</title>
-    <link rel="stylesheet" href="style.css"> <!-- optional if you have global CSS -->
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
+            margin: 0;
+            padding: 0;
             background-color: #f7f7f7;
+            color: #222;
         }
+
         .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
+            padding: 50px 30px;
         }
-        h1, h2, h3 {
+
+        h1 {
             text-align: center;
+            font-size: 2.3rem;
+            margin-bottom: 10px;
         }
+
+        p.subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            max-width: 850px;
+            margin: 0 auto 40px auto;
+            color: #444;
+        }
+
+        .section {
+            background: white;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
         .dashboard-link {
             display: block;
             margin: 30px auto;
-            padding: 15px 25px;
+            padding: 16px 28px;
             text-align: center;
             background-color: #636EFA;
             color: white;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 8px;
+            border-radius: 10px;
             width: fit-content;
+            transition: 0.2s;
         }
+
         .dashboard-link:hover {
             background-color: #505FCC;
         }
-        p.description {
-            text-align: center;
-            max-width: 800px;
-            margin: 10px auto 40px auto;
+
+        .links span {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .emoji {
+            font-size: 1.1rem;
         }
     </style>
 </head>
+
 <body>
 
 <div class="container">
-    <h1>Project 4 | Spotify Listening Dashboard</h1>
-    <p class="description">
-        This project explores listening behaviors of two Spotify users using a static interactive dashboard. 
-        Compare total listening volume, track engagement, habitual patterns, and skip/shuffle behavior.
+
+    <!-- Title -->
+    <h1>Project 4: Spotify Listening Behavior Dashboard 🎧📊</h1>
+    <p class="subtitle">
+        Data science is not only about predictive modeling — it is also about uncovering patterns in human behavior 
+        through exploratory analytics and storytelling dashboards. In this project, I analyzed Spotify listening history 
+        from two users to compare engagement, repetition, discovery habits, and listening style.
     </p>
 
+    <!-- Dashboard Button -->
     <a class="dashboard-link" href="Final/Static_Dashboard.html" target="_blank">
-        View Static Dashboard
+        View Full Static Dashboard Report
     </a>
+
+    <!-- Links -->
+    <div class="section">
+        <h2>Links 🔗</h2>
+        <p class="links">
+            <span>📊 Dashboard:</span> Static HTML Report <br>
+            <span>💻 GitHub Repo:</span> (add link here) <br>
+            <span>📓 Notebook:</span> (add link here)
+        </p>
+    </div>
+
+    <!-- Overview -->
+    <div class="section">
+        <h2>Project Overview 📄</h2>
+        <p>
+            This project transforms raw Spotify streaming history into a behavioral engagement dashboard. 
+            By comparing two users’ listening volume, temporal habits, diversity of artists and albums, 
+            and skip/shuffle behavior, the dashboard highlights patterns of exploration versus repetition.
+        </p>
+
+        <p>
+            In real-world applications, this type of analysis supports personalized recommendation systems, 
+            user segmentation, and product engagement strategy for streaming platforms.
+        </p>
+    </div>
+
+    <!-- Workflow -->
+    <div class="section">
+        <h2>Project Workflow 🪜</h2>
+        <ul>
+            <li><b>P4 - S1 Data Wrangling:</b> Cleaning timestamps, merging histories, feature engineering</li>
+            <li><b>P4 - S2 Behavioral Metrics:</b> Engagement, repetition, discovery, skip/shuffle rates</li>
+            <li><b>P4 - S3 Dashboard Development:</b> Plotly visualizations + static HTML export</li>
+            <li><b>P4 - S4 Insight Storytelling:</b> Translating patterns into user behavior narratives</li>
+        </ul>
+    </div>
+
+    <!-- Visual Highlights -->
+    <div class="section">
+        <h2>Visual Highlights 📷</h2>
+        <ul>
+            <li><b>Figure 1:</b> Total Listening Volume — compares overall engagement</li>
+            <li><b>Figure 9:</b> Monthly Artist Diversity — tracks exploration over time</li>
+            <li><b>Figure 11:</b> Shuffle vs Skip Behavior — reveals listening style differences</li>
+        </ul>
+    </div>
+
+    <!-- Results -->
+    <div class="section">
+        <h2>Key Results 🟰</h2>
+        <ul>
+            <li><b>Engagement Differences:</b> User A listens more consistently across time</li>
+            <li><b>Exploration vs Habit:</b> User B demonstrates broader artist and album diversity</li>
+            <li><b>Listening Style:</b> Skip/shuffle patterns show distinct consumption preferences</li>
+            <li><b>Behavioral Shifts:</b> Discovery trends alternate yearly, with User B peaking in the final year</li>
+        </ul>
+    </div>
+
+    <!-- Tech Stack -->
+    <div class="section">
+        <h2>Technical Stack 🔨</h2>
+        <ul>
+            <li><b>Data Processing:</b> pandas, NumPy</li>
+            <li><b>Visualization:</b> Plotly Express, Plotly Graph Objects</li>
+            <li><b>Dashboard Export:</b> Static HTML Reporting</li>
+            <li><b>Environment:</b> Jupyter Notebook + GitHub Pages Deployment</li>
+        </ul>
+    </div>
+
+    <!-- Ethics -->
+    <div class="section">
+        <h2>Ethical Considerations ⚖️</h2>
+        <ul>
+            <li>Listening data anonymized (no personal identifiers)</li>
+            <li>Behavioral analytics used only for insight, not surveillance</li>
+            <li>Some tracks are labeled as explicit and may reference adult themes such as violence, substance use, or mature subject matter.</li>
+            <li>Dashboards designed for transparency and interpretability</li>
+            <li>Future recommendation use would require consent and opt-out controls</li>
+        </ul>
+    </div>
 
 </div>
 
