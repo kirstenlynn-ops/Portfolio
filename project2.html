@@ -121,12 +121,33 @@
     </ul>
 
     <!-- Visuals -->
-    <h3>Visuals 📷</h3>
-    <br>
-    <div class="visuals">
-      <p>Adding Soon!</p>
-      <p>More visuals in creation.</p>
-    </div>
+<h3>Visuals 📷</h3>
+<br>
+
+<div class="visuals">
+
+  <figure>
+    <img src="images/proj2fig1.png" alt="Figure 1: Sentinel Placeholder Frequency">
+    <figcaption><strong>Figure C1:</strong> (Diagnostic audit of the raw dataset identifying “sentinel” null values (encoded as “?”). The analysis revealed a 97% missingness rate in the ‘Weight’ attribute, establishing the baseline requirement for Multivariate Imputation (MICE) to prevent significant loss of statistical power. )</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/proj2fig2.png" alt="Figure 2: Feature Correlation Matrix">
+    <figcaption><strong>Figure C2:</strong> (Interdependency heatmap illustrating the mathematical relationships between clinical markers (Age, Lab Procedures, and Medication Count). These correlations provided the logical foundation for the MICE algorithm, allowing the pipeline to predict missing values based on observed patient patterns rather than random estimation. )</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/proj2fig3.png" alt="Figure 3: Statistical Fidelity Validation (KDE) ">
+    <figcaption><strong>Figure C3:</strong> (Kernel Density Estimate (KDE) plot comparing pre-remediation and post-remediation distributions for ‘Time in Hospital’. The near-perfect overlap of the distribution curves serves as forensic proof that the automated remediation preserved the original clinical “shape” and statistical integrity of the dataset. )</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/proj2fig4.png" alt="Figure 4: Data Quality Index (DQI) Remediation Delta">
+    <figcaption><strong>Figure C4:</strong> (Comparative analysis of the Data Quality Index (DQI) showing the transition from fragmented raw data (pre-remediation) to a high fidelity clinical asset (post-remediation). The automated pipeline achieved a 25% aggregate improvement in data health, primarily by resolving systemic missingness in the weight and payer code attributes.)</figcaption>
+  </figure>
+
+</div>
+
 
     <!-- Results -->
     <br>
