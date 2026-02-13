@@ -7,10 +7,10 @@
   February 13, 2026
 ---
 
-| **Project Deliverables & Repository Access** | |
+| **Project Deliverables & Repository Access** | **Links**|
 |--------------------------------------------|--|
 | **GitHub Repository:** | https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline <br> *(Contains Jupyter Notebooks, datasets, and end-to-end development)* |
-| **Recorded Presentation (MP4):** | https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/Final_Project_Presentation.mp4 |
+| **Recorded Presentation (MP4):** | https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/Final_Project_Presentation.mp4 <br> *(Full Recorded Video Presentation for Project 2)* |
 | **Milestone 1:** | https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/Project_Proposal_and_Clinical_Framework.pdf <br> *(Project Proposal & Framework: Established the DQI baseline and identified clinical domain constraints.)* |
 | **Milestone 2:** | https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/Technical_Design_and_Progress_Report.pdf <br> *(Technical Design & Progress: Developed core Python modules and executed initial MICE/RE logic tests.)* |
 | **Milestone 3:** | https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/Final_Technical_White_Paper.pdf <br> *(Final Technical White Paper: Final forensic audit, KDE validation, and strategic clinical roadmap.)* |
