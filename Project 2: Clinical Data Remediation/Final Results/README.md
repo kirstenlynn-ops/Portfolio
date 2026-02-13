@@ -1,4 +1,4 @@
-# 🏦BUSINESS PROPOSAL: PREDICTIVE ENGAGEMENT MODELING FOR RETAIL BANKING
+# 🩺AUTOMATED CLINICAL REMEDIATION PIPELINE
 
 - Prepared by: Christian Shannon, Ashley Love, Mugtaba Awad, and Kirsten Livingston
   Bellevue University
