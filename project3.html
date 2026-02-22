@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 3 - Kirsten Livingston</title>
+  <style>
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #F0F4EF; /* soft green */
+      color: #3E2C2A; /* dark brown text */
+      line-height: 1.6;
+      text-align: center;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #6B8E23; /* earthy green */
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { background-color: #556B2F; }
+
+    /* Main Section */
+    section {
+      padding: 120px 20px 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #E6EFE6; /* light green */
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    h1 { font-size: 2.5em; margin-bottom: 10px; text-align:center; }
+    h2 { font-size: 1.5em; margin-bottom: 30px; color: #5B4B3A; text-align:center; }
+    h3 { font-size: 1.3em; margin: 20px 0 10px 0; }
+
+    p { margin-bottom: 15px; }
+
+    /* Links / Buttons */
+    .link-button {
+      display: inline-block;
+      margin: 8px 10px;
+      padding: 10px 18px;
+      border-radius: 5px;
+      background-color: #6B8E23;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .link-button:hover { background-color: #556B2F; }
+
+    /* Visuals */
+    .visuals img {
+      max-width: 100%;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5B4B3A;
+      color: white;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+    footer a { color: #E6EFE6; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Project Section -->
+  <section>
+    <h1>Project 3 | High-Fidelity Sentiment Distillation 📄🤖</h1>
+    <p><strong>This project develops a distilled TF-IDF NLP pipeline for high-volume consumer review data. The team reduced feature cardinality to 20,000 key markers while maintaining elite-tier accuracy (89%), creating a robust, automated, and auditable “Golden Asset” for sentiment modeling.</strong></p>
+
+    <!-- Links -->
+    <br>
+    <h3>Links 🔗</h3>
+    <a href="#" class="link-button" target="_blank">Team Repo 👥</a>
+    <a href="#" class="link-button" target="_blank">Final Report 📄</a>
+    <a href="#" class="link-button" target="_blank">Visualizations 📊</a>
+
+    <!-- Project Overview -->
+    <br>
+    <h3>Project Overview 📄</h3>
+    <p>The project focuses on automated ingestion, distillation, and visualization of 50,000 text records. The NLP pipeline preserves negation markers, reduces noise via NLTK filtering, and applies bi-gram TF-IDF vectorization. The resulting dataset enables accurate sentiment classification while minimizing computational overhead and ensuring ethical oversight.</p>
+
+    <!-- Workflow -->
+    <br>
+    <h3>Project Workflow 🪜</h3>
+    <ul>
+      <li>P3 - S1 Data Ingestion: Automated mapping of raw review files into labeled dataset.</li>
+      <li>P3 - S2 Distillation: Lowercasing, HTML stripping, stop-word filtering, and feature reduction to 20,000 markers.</li>
+      <li>P3 - S3 Visualization: Word Clouds, histograms, and heatmaps to audit dataset fidelity.</li>
+      <li>P3 - S4 Sentiment Modeling: Bi-gram TF-IDF vectorization with Naive Bayes / SVM to evaluate predictive accuracy.</li>
+      <li>P3 - S5 Peer Review & Reporting: Documented code changes, ethical checks, and deployment of final “Golden Asset.”</li>
+    </ul>
+
+    <!-- Visuals -->
+    <br>
+    <h3>Visuals 📷</h3>
+    <div class="visuals">
+      <figure>
+        <img src="images/ClassBalance.png" alt="Figure 1: Class Balance Bar Chart">
+        <figcaption><strong>Figure 1:</strong> Seaborn bar chart showing perfect 50/50 split (25,000 positive / 25,000 negative) for unbiased modeling. </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/BeforeAfter Distillation.png" alt="Figure 2: Review Length Histogram Before/After Distillation">
+        <figcaption><strong>Figure 2:</strong> Dual-axis histogram showing reduction in word counts after distillation. Confirms removal of non-semantic filler.</figcaption>
+      </figure>
+
+      <figure>
+    <img src="images/Pos. Word Cloud.png" alt="Figure 3a: Positive Word Cloud">
+    <figcaption><strong>Figure 3a:</strong> Positive Word Cloud visually auditing the “Golden Asset,” confirming key positive sentiment markers are preserved.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/Neg. Word Cloud.png" alt="Figure 3b: Negative Word Cloud">
+    <figcaption><strong>Figure 3b:</strong> Negative Word Cloud visually auditing the “Golden Asset,” confirming key negative sentiment markers are preserved.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/Pos. Word Cloud (sample).png" alt="Figure 3c: Positive Sample Quality Audit">
+    <figcaption><strong>Figure 3c:</strong> Quality audit of 500 sampled positive records confirming distilled text maintains semantic fidelity.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/Neg. Word Cloud (sample).png" alt="Figure 3d: Negative Sample Quality Audit">
+    <figcaption><strong>Figure 3d:</strong> Quality audit of 500 sampled negative records confirming distilled text maintains semantic fidelity.</figcaption>
+  </figure>
+
+      <figure>
+        <img src="images/proj.3 Confusion Matrix.png" alt="Figure 4: Sentiment Model Heatmap">
+        <figcaption><strong>Figure 4:</strong> Heatmap validating model quality using preserved negation markers and bi-gram TF-IDF, achieving 89% balanced accuracy.</figcaption>
+      </figure>
+    </div>
+
+    <!-- Results -->
+    <br>
+    <h3>Results 🟰</h3>
+    <p>Dataset completeness: 50,000 records ingested with 100% label fidelity</p>
+    <p>Feature reduction: 20,000 high-intensity markers retained</p>
+    <p>Modeling accuracy: 89% with balanced precision/recall</p>
+    <p>Golden Asset validation: Preserved negation markers and semantic integrity</p>
+
+    <!-- Recommendations / Ethical Considerations -->
+    <br>
+    <h3>Recommendations & Ethical Considerations ⚖️</h3>
+    <ul>
+      <li>Monitor exclusion lists to preserve negation markers in distillation pipelines.</li>
+      <li>Perform visual audits (Word Clouds) to validate automated text processing.</li>
+      <li>Maintain peer review and reproducibility for all code changes.</li>
+      <li>Integrate international software standards for transparency in NLP tools.</li>
+    </ul>
+
+    <!-- Technical Stack -->
+    <br>
+    <h3>Technical Stack 🔨</h3>
+    <p>Data Wrangling: pandas, os, glob</p>
+    <p>Distillation: NLTK, custom stop-word filtering</p>
+    <p>Modeling: Scikit-Learn (Naive Bayes, SVM), TF-IDF Vectorization</p>
+    <p>Visualization: Matplotlib, Seaborn, WordCloud</p>
+    <p>Environment: Python 3.x, Jupyter Notebook, GitHub Pages deployment</p>
+
+    <!-- Conclusion -->
+    <br>
+    <h3>Conclusion ✅</h3>
+    <p>The framework confirms that high-fidelity, distilled data is essential for effective sentiment modeling. Automated ingestion and distillation preserved integrity of all 50,000 records, providing a blueprint for transforming noisy text into a model-ready “Golden Asset,” improving analytic efficiency and predictive accuracy.</p>
+
+    <!-- References -->
+    <br>
+    <h3>References 📚</h3>
+    <ul>
+      <li>Maas, A.L., et al. (2011). Learning Word Vectors for Sentiment Analysis.</li>
+      <li>Jurafsky, D., & Martin, J.H. (2023). Speech and Language Processing.</li>
+      <li>Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python (NLTK).</li>
+      <li>Hutto, C.J., & Gilbert, E.E. (2014). VADER: A Rule-based Model for Sentiment Analysis.</li>
+      <li>Kowsari, K., et al. (2019). Text Classification Algorithms: A Survey.</li>
+      <li>Zhang, Y., & Wallace, B. (2015). A Practitioner's Guide to CNNs for Sentence Classification.</li>
+      <li>He, K., & Zhang, X. (2016). Deep Residual Learning for Image Recognition [NLP Context].</li>
+      <li>Vaswani, A., et al. (2017). Attention Is All You Need.</li>
+      <li>McKinney, W. (2022). Python for Data Analysis (3rd Edition).</li>
+      <li>Tufte, E.R. (2001). The Visual Display of Quantitative Information.</li>
+    </ul>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
+  </footer>
+
+</body>
+</html>
