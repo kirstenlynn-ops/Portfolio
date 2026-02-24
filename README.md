@@ -34,9 +34,9 @@
 
 
 -📽️Project 3: High-Fidelity Sentiment Distillation
-| Project Site 🤙 | Team Repo 👥 | Presentation 🎤 |
+| Project Site 🤙 | Team Repo 👥 | Presentation 🎤  |
 |-----------------|---------------|-------------------|
-| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub/ COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
+| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub/COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
 
 
 -📽️Project 4: Spotify Listening History Analysis
