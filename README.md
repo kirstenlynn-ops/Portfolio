@@ -33,7 +33,11 @@
 | [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline) | [DQI Link](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md) |
 
 
--📽️Project 3: [link]
+-📽️Project 3: High-Fidelity Sentiment Distillation
+| Project Site 🤙 | Team Repo 👥 | Presentation 🎤 |
+|-----------------|---------------|-------------------|
+| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub/ COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
+
 
 -📽️Project 4: Spotify Listening History Analysis
 | Project Site 🤙 | GitHub Folder 📁| Dashboard 📦 |
