@@ -35,7 +35,7 @@
 
 | Team Repo 👥 | Project Site 🌐 | Presentation 🎤 |
 |--------------|----------------|----------------|
-| [View on GitHub/COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project3.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
+| [View on GitHub](https://github.com/mugtaba918/High-Volume-Sentiment-Engineering/tree/main) | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project3.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
 
 - 📽️ Project 4: Spotify Listening History Analysis
 
