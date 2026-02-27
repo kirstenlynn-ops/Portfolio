@@ -20,26 +20,22 @@
 
 *(More coming soon!)*
 
--📽️Project 1: Predictive Engagement Modeling for Retail Banking
+- 📽️ Project 1: Predictive Engagement Modeling for Retail Banking
+| Team Repo 👥 | Project Site 🌐 | My Version 🤙 |
+|--------------|----------------|----------------|
+| [View on GitHub](https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1) | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project1.html) | [My Repo](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking) |
 
-| My Version 🤙 | Team Repo 👥 | Project Site 🤙 |
-|---------------|---------------|------------------|
-| [View on GitHub](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking) | [View on GitHub](https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1) | [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project1.html) |
+- 📽️ Project 2: Clinical Data Remediation
+| Team Repo 👥 | Project Site 🌐 | DQI Framework 📦 |
+|--------------|----------------|-----------------|
+| [View on GitHub](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline) | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [DQI Link](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md) |
 
+- 📽️ Project 3: High-Fidelity Sentiment Distillation
+| Team Repo 👥 | Project Site 🌐 | Presentation 🎤 |
+|--------------|----------------|----------------|
+| [View on GitHub/COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project3.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
 
--📽️Project 2: Clinical Data Remediation
-| Project Site 🤙 | Team Repo 👥 | DQI Framework 📦 |
-|-----------------|---------------|-------------------|
-| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline) | [DQI Link](https://github.com/pandakitty/Diabetes_Clinical_Remediation_Pipeline/blob/main/documentation/quality_dimensions.md) |
-
-
--📽️Project 3: High-Fidelity Sentiment Distillation
-| Project Site 🤙 | Team Repo 👥 | Presentation 🎤  |
-|-----------------|---------------|-------------------|
-| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project2.html) | [View on GitHub/COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
-
-
--📽️Project 4: Spotify Listening History Analysis
-| Project Site 🤙 | GitHub Folder 📁| Dashboard 📦 |
-|-----------------|------------------|---------------|
-| [View on GitHub](https://kirstenlynn-ops.github.io/Portfolio/project4.html) | [Task Folder](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%204%3A%20Spotify%20Listening%20History%20Analysis) | [Dashboard](https://kirstenlynn-ops.github.io/Portfolio/images/Spotify_Static_Dashboard.htm) |
+- 📽️ Project 4: Spotify Listening History Analysis
+| Team Repo 👥 | Project Site 🌐 | Dashboard 📊 |
+|--------------|----------------|---------------|
+| [GitHub Folder](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%204%3A%20Spotify%20Listening%20History%20Analysis) | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project4.html) | [Dashboard](https://kirstenlynn-ops.github.io/Portfolio/images/Spotify_Static_Dashboard.htm) |
