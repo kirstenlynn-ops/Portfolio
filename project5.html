@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DSC400 | Amazon Reviews Analysis</title>
+  <style>
+    body { 
+      margin:0; 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background-color: #F0F4EF; /* soft green */
+      color: #3E2C2A; /* dark brown text */
+      line-height: 1.6;
+      text-align: center;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #6B8E23; /* earthy green */
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      padding: 16px 20px;
+      display: inline-block;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { background-color: #556B2F; }
+
+    /* Main Section */
+    section {
+      padding: 120px 20px 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #E6EFE6; /* light green */
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    h1 { font-size: 2.5em; margin-bottom: 10px; text-align:center; }
+    h2 { font-size: 1.5em; margin-bottom: 30px; color: #5B4B3A; text-align:center; }
+    h3 { font-size: 1.3em; margin: 20px 0 10px 0; }
+
+    p { margin-bottom: 15px; }
+
+    /* Links / Buttons */
+    .link-button {
+      display: inline-block;
+      margin: 8px 10px;
+      padding: 10px 18px;
+      border-radius: 5px;
+      background-color: #6B8E23;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .link-button:hover { background-color: #556B2F; }
+
+    /* Visuals */
+    .visuals img {
+      max-width: 100%;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5B4B3A;
+      color: white;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+    footer a { color: #E6EFE6; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Intro / Project Section -->
+  <section>
+    <h1>DSC400 | Amazon Reviews Analysis (2026)</h1>
+    <p><strong>Analyzing millions of Amazon customer reviews to extract actionable business insights and predict product ratings.</strong> This project demonstrates skills in large-scale data processing, feature engineering, statistical analysis, machine learning, and transformer-based NLP modeling. Insights from the project inform product strategy, marketing decisions, and scalable automated review analysis pipelines. 📦📊🤖🛒</p>
+
+    <!-- Links -->
+    <br>
+    <h3>Links 🔗</h3>
+    <a href="https://github.com/kirstenlynn-ops/DSC400_Project_Amazon_Review_Analysis" class="link-button" target="_blank">GitHub Repo 💻</a>
+    <a href="https://kirstenlynn-ops.github.io/DSC400_Project_Amazon_Review_Analysis/" class="link-button" target="_blank">Project Page 🌐</a>
+    <a href="https://kirstenlynn-ops.github.io/DSC400_Project_Amazon_Review_Analysis/Amazon_Reviews_Static_Dashboard.html" class="link-button" target="_blank">Dashboard 📊</a>
+
+    <!-- Project Overview -->
+    <br>
+    <h3>Project Overview 📄</h3>
+    <p>This project analyzes ~123GB of Amazon customer review data (subset used: 129,794 reviews) from 58,902 products between 2000–2018. The analysis identifies sentiment patterns, predicts product ratings, and evaluates reviewer behavior using structured features and unstructured review text. Methods include statistical testing, hierarchical machine learning models, and transformer-based NLP with DistilBERT.</p>
+
+    <!-- Workflow -->
+    <br>
+    <h3>Project Workflow 🪜</h3>
+    <ul>
+      <li>NB 1 – Data Ingestion & Cleaning</li>
+      <li>NB 2 – Exploratory Data Analysis & Feature Engineering</li>
+      <li>NB 3 – Visualization</li>
+      <li>NB 3b – Dashboard</li>
+      <li>NB 4 – Statistical Analysis</li>
+      <li>NB 5 – Machine Learning & NLP Modeling</li>
+    </ul>
+
+    <!-- Visuals -->
+    <h3>Visuals 📷</h3>
+    <div class="visuals">
+      <p>Example: Sentiment vs Star Rating</p>
+      <img src="images/sentiment_rating.png" alt="Sentiment vs Star Rating">
+      <p>Example: Hierarchical Model Confusion Matrix</p>
+      <img src="images/hierarchical_confusion.png" alt="Hierarchical Model Confusion Matrix">
+      <p>Dashboard Preview</p>
+      <img src="images/dashboard_preview.png" alt="Dashboard Preview">
+    </div>
+
+    <!-- Results -->
+    <br>
+    <h3>Key Results 🟰</h3>
+    <ul>
+      <li>5-star reviews dominate (~66%), causing class imbalance challenges</li>
+      <li>Strong correlation between review text sentiment and star rating</li>
+      <li>Hierarchical models improved mid-range rating prediction (Macro F1: 0.70)</li>
+      <li>Transformer-based NLP (DistilBERT) achieved 82.6% accuracy, showing contextual text modeling benefits</li>
+      <li>Verified purchase reviews slightly differ from non-verified reviews</li>
+    </ul>
+
+    <!-- Technical Stack -->
+    <br>
+    <h3>Technical Stack 🔨</h3>
+    <p>Core: Python, Pandas, NumPy, NLTK</p>
+    <p>Visualization: Matplotlib, Seaborn, Plotly</p>
+    <p>ML Models: Logistic Regression, Random Forest, Hierarchical Models</p>
+    <p>NLP: Hugging Face Transformers (DistilBERT)</p>
+    <p>Evaluation: Accuracy, Macro F1, Precision/Recall, Confusion Matrices</p>
+
+    <!-- Ethical Considerations -->
+    <br>
+    <h3>Ethical Considerations ⚖️</h3>
+    <ul>
+      <li>Public dataset only; no personal identifiying information used</li>
+      <li>Prevent model bias against low-volume reviewers or products</li>
+      <li>Continuous performance monitoring and fairness auditing</li>
+      <li>Manual oversight for downstream decision-making</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    📧 <a href="mailto:lynnmarieliving@gmail.com">lynnmarieliving@gmail.com</a> | 🔗 <a href="https://github.com/kirstenlynn-ops" target="_blank">GitHub</a>
+  </footer>
+
+</body>
+</html>
