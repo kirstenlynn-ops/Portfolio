@@ -22,7 +22,7 @@
 
 - 📽️ Project 1: Predictive Engagement Modeling for Retail Banking
 | Team Repo 👥 | Project Site 🌐 | My Version 🤙 |
-|--------------|----------------|----------------|
+|---------------|-----------------|----------------|
 | [View on GitHub](https://github.com/cashannon/DSC-450-Applied-Data-Science-Project1) | 
 | [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project1.html) | 
 | [My Repo](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%201%3A%20Predictive%20Engagement%20Modeling%20for%20Retail%20Banking) |
@@ -38,12 +38,12 @@
 | Team Repo 👥 | Project Site 🌐 | Presentation 🎤 |
 |--------------|----------------|----------------|
 | [View on GitHub/COMING SOON](https://kirstenlynn-ops.github.io/Portfolio/portfolio.html) | 
-|[Project Page](https://kirstenlynn-ops.github.io/Portfolio/project3.html) | 
-|[Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
+| [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project3.html) | 
+| [Presentation Link](https://www.canva.com/design/DAHCKaTegd4/kihgvpXRt-myaZ-cfG-jkw/edit) |
 
 - 📽️ Project 4: Spotify Listening History Analysis
 | Team Repo 👥 | Project Site 🌐 | Dashboard 📊 |
-|--------------|----------------|---------------|
+|--------------|------------------|---------------|
 | [GitHub Folder](https://github.com/kirstenlynn-ops/Portfolio/tree/main/Project%204%3A%20Spotify%20Listening%20History%20Analysis) | 
-|[Project Page](https://kirstenlynn-ops.github.io/Portfolio/project4.html) | 
-|[Dashboard](https://kirstenlynn-ops.github.io/Portfolio/images/Spotify_Static_Dashboard.htm) |
+| [Project Page](https://kirstenlynn-ops.github.io/Portfolio/project4.html) | 
+| [Dashboard](https://kirstenlynn-ops.github.io/Portfolio/images/Spotify_Static_Dashboard.htm) |
